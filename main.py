@@ -1,6 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
-import pandas as pd
+# import pandas as pd
 import re
 from geopy.distance import geodesic
 from datetime import datetime

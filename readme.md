@@ -5,11 +5,25 @@
 
 
 ## Requirments
-pip install requests beautifulsoup4 pandas goepy
+pip install requests beautifulsoup4 goepy
 
 ## How to execute
-```% python main.py```
+```% python main.py```  
+Výstupem je soubor ```index.html```
 
+## Todo
+- doplnit **"Body CPS"** ke kazdemu pilotovi
+- **Věková soutěž**
+  - mladší junior - věk do 25 let 
+  - starší junior - věk 26 - 40 let
+  - mladší senior - věk 41 - 55 let
+  - starší senior - věk 56 - 70 let
+  - super senior - věk 70 a více let
+- **Typová soutěž**
+  - Club - Std. Cirrus; ASW-15,19; Atlas; LS1; Astir; Cobra; Phoebus; PIK-20
+  - Classic - Orlík; M-28,35; Foka; Ka 6
+  - Základní - Blaník; Bergfalke; Šohaj; Luňák
+  - Volná - Ventus; LAK-17; ASW-20; Discus; Nimbus; ASG-29,32, JS3
 
 ## Brig. hodiny
 #### implementace automatickeho vyhodnocovani klubove souteze
