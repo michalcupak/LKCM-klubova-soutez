@@ -5,7 +5,7 @@
 
 
 ## Requirments
-pip install requests beautifulsoup4 goepy python-dotenv
+pip install requests beautifulsoup4 geopy python-dotenv
 
 ## How to execute
 ```% python soutez.py```  
