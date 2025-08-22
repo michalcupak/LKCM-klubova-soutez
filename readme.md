@@ -5,10 +5,10 @@
 
 
 ## Requirments
-pip install requests beautifulsoup4 goepy
+pip install requests beautifulsoup4 goepy python-dotenv
 
 ## How to execute
-```% python main.py```  
+```% python soutez.py```  
 Výstupem je soubor ```index.html```
 
 ## Todo
@@ -29,3 +29,5 @@ Výstupem je soubor ```index.html```
 #### implementace automatickeho vyhodnocovani klubove souteze
 - 18.8.2025 - 2h 
 - 19.8.2025 - 5h 
+- 21.8.2025 - 2h
+- 22.8.2025 - 6h
