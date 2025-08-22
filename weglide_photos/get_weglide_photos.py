@@ -2,7 +2,7 @@ import requests
 import json
 from dotenv import load_dotenv
 import os
-from ftp_upload import connect_to_ftp, upload_file_to_ftp
+from ftp_upload import ftp_upload
 
 load_dotenv()
 
@@ -44,8 +44,8 @@ if __name__ == '__main__':
     with open('image_urls.json', 'w') as f:
         json.dump(image_urls, f)
 
-    ftp = connect_to_ftp(os.getenv('FTP_SERVER'), os.getenv('FTP_USERNAME'), os.getenv('FTP_PASSWORD'))
+    ftp = ftp_upload.connect_to_ftp(os.getenv('FTP_SERVER'), os.getenv('FTP_USERNAME'), os.getenv('FTP_PASSWORD'))
     if ftp:
-        upload_file_to_ftp(ftp, "./image_urls.json", "/www/subdom/lkcm/weglide_slideshow/image_urls.json")
+        ftp_upload.upload_file_to_ftp(ftp, "./image_urls.json", "/www/subdom/lkcm/weglide_slideshow/image_urls.json")
         ftp.quit()
 

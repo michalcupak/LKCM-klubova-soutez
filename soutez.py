@@ -7,7 +7,7 @@ from datetime import datetime
 from dateutil.parser import parse
 from dotenv import load_dotenv
 import os
-from ftp_upload import connect_to_ftp, upload_file_to_ftp
+from ftp_upload import ftp_upload
 
 load_dotenv()
 
@@ -181,9 +181,9 @@ def main():
     with open('index.html', 'w', encoding='utf-8') as f:
         f.write(html_content)
 
-    ftp = connect_to_ftp(os.getenv('FTP_SERVER'), os.getenv('FTP_USERNAME'), os.getenv('FTP_PASSWORD'))
+    ftp = ftp_upload.connect_to_ftp(os.getenv('FTP_SERVER'), os.getenv('FTP_USERNAME'), os.getenv('FTP_PASSWORD'))
     if ftp:
-        upload_file_to_ftp(ftp, "./index.html", "/www/subdom/lkcm/soutez/index.html")
+        ftp_upload.upload_file_to_ftp(ftp, "./index.html", "/www/subdom/lkcm/soutez/index.html")
         ftp.quit()
 
 if __name__ == '__main__':
