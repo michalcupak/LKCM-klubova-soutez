@@ -21,14 +21,18 @@ def scrape_images():
         response = requests.get(url)
         response.raise_for_status()
         data = response.json()
-        image_urls = []
+        images = []
         for flight in data:
             if 'story' in flight:
                 for image_url in flight['story']:
                     if image_url.endswith(('.jpg', '.png')):
                         large_image_url = image_url.replace('_small', '')
-                        image_urls.append(f'https://weglidefiles.b-cdn.net/{large_image_url}')
-        return image_urls
+                        images.append({
+                            "url": f'https://weglidefiles.b-cdn.net/{large_image_url}',
+                            "pilot": flight['user']['name'],
+                            "datum": flight['scoring_date'],
+                        })
+        return images
     except Exception as e:
         print(f"An error occurred: {e}")
         return []
