@@ -45,11 +45,11 @@ if __name__ == '__main__':
     print(image_urls)
     print()
 
-    with open('~/LKCM-klubova-soutez/weglide_photos/image_urls.json', 'w', encoding="utf-8") as f:
+    with open('/home/lkcm/LKCM-klubova-soutez/weglide_photos/image_urls.json', 'w', encoding="utf-8") as f:
         json.dump(image_urls, f, ensure_ascii=False, indent=2)
 
     ftp = ftp_upload.connect_to_ftp(os.getenv('FTP_SERVER'), os.getenv('FTP_USERNAME'), os.getenv('FTP_PASSWORD'))
     if ftp:
-        ftp_upload.upload_file_to_ftp(ftp, "~/LKCM-klubova-soutez/weglide_photos/image_urls.json", "/www/subdom/lkcm/weglide_slideshow/image_urls.json")
+        ftp_upload.upload_file_to_ftp(ftp, "/home/lkcm/LKCM-klubova-soutez/weglide_photos/image_urls.json", "/www/subdom/lkcm/weglide_slideshow/image_urls.json")
         ftp.quit()
 
