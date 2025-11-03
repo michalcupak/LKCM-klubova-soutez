@@ -143,7 +143,8 @@ def get_pilots_info(url):
 
 
 def main():
-    print("AK Medlánky - Klubová soutěž " + cps_year + "\n")
+    print("AK Medlánky - Klubová soutěž " + cps_year)
+    print("spuštěno: " + datetime.now().strftime('%d. %m. %Y %H:%M:%S') + "\n")
 
     url = 'https://www.cpska.cz/public/index3.php?lpg=piloti&klub=4'
     pilots_info = get_pilots_info(url)

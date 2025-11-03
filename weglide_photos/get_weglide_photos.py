@@ -2,6 +2,7 @@ import requests
 import json
 from dotenv import load_dotenv
 import os
+from datetime import datetime
 from ftp_upload import ftp_upload
 
 load_dotenv()
@@ -41,6 +42,9 @@ def scrape_images():
 
 
 if __name__ == '__main__':
+    print("AK Medlánky - Get Weglide photos")
+    print("spuštěno: " + datetime.now().strftime('%d. %m. %Y %H:%M:%S') + "\n")
+
     image_urls = scrape_images()
     print(image_urls)
     print()
