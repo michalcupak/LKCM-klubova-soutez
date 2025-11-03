@@ -155,7 +155,7 @@ def main():
         "pilots_info": pilots_info,
     }
 
-    with open('soutez_vysledky.json', 'w', encoding="utf-8") as f:
+    with open('~/LKCM-klubova-soutez/soutez_vysledky.json', 'w', encoding="utf-8") as f:
         json.dump(soutez_vysledky, f, ensure_ascii=False, indent=2)
 
     print()
@@ -189,13 +189,13 @@ def main():
     html_content += "</div>"  # Close container
     html_content += '</body></html>'
 
-    with open('index.html', 'w', encoding='utf-8') as f:
+    with open('~/LKCM-klubova-soutez/index.html', 'w', encoding='utf-8') as f:
         f.write(html_content)
 
     ftp = ftp_upload.connect_to_ftp(os.getenv('FTP_SERVER'), os.getenv('FTP_USERNAME'), os.getenv('FTP_PASSWORD'))
     if ftp:
-        ftp_upload.upload_file_to_ftp(ftp, "./soutez_vysledky.json", "/www/subdom/lkcm/soutez_v2/soutez_vysledky.json")
-        ftp_upload.upload_file_to_ftp(ftp, "./index.html", "/www/subdom/lkcm/soutez/index.html")
+        ftp_upload.upload_file_to_ftp(ftp, "~/LKCM-klubova-soutez/soutez_vysledky.json", "/www/subdom/lkcm/soutez_v2/soutez_vysledky.json")
+        ftp_upload.upload_file_to_ftp(ftp, "~/LKCM-klubova-soutez/index.html", "/www/subdom/lkcm/soutez/index.html")
         ftp.quit()
 
 if __name__ == '__main__':
