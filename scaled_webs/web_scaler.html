@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Web scaler</title>
+<style>
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    transform-origin: 0 0;
+    font-family: system-ui, sans-serif;
+    background: #111;
+    color: #eee;
+  }
+
+  iframe {
+    border: none;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .default-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    padding: 2rem;
+    box-sizing: border-box;
+  }
+
+  h1 {
+    font-size: 2em;
+    color: #4fc3f7;
+    margin-bottom: 0.5em;
+  }
+
+  code {
+    background: #222;
+    color: #81d4fa;
+    padding: 0.3em 0.6em;
+    border-radius: 6px;
+  }
+</style>
+</head>
+<body>
+  <div id="container"></div>
+
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const targetUrl = params.get("url");
+    const scale = parseFloat(params.get("zoom")) || 1;
+    const container = document.getElementById("container");
+
+    if (targetUrl) {
+      // ✅ režim s URL
+      const iframe = document.createElement("iframe");
+      iframe.src = targetUrl;
+      iframe.style.width = `${100 / scale}vw`;
+      iframe.style.height = `${100 / scale}vh`;
+      container.appendChild(iframe);
+
+      // aplikace zoomu
+      document.body.style.transform = `scale(${scale})`;
+    } else {
+      // 🟡 výchozí stránka
+      container.innerHTML = `
+        <div class="default-info">
+          <h1>Web scaler <br/> Nástroj pro zobrazení webové stránky s měřítkem (zoom)</h1>
+          <p>
+            Tento nástroj umožňuje zobrazit libovolnou webovou stránku v režimu celé obrazovky
+            a zároveň nastavit zvětšení (scale) pomocí parametrů v URL.
+          </p>
+          <p>
+            <strong>Použití:</strong><br>
+            <code>?url=https://example.com&zoom=1.5</code>
+          </p>
+          <p>
+            <strong>Příklad:</strong><br>
+            <code>web_scaler.html?url=https://openai.com&zoom=2</code>
+          </p>
+          <p>
+            Pokud parametr <code>zoom</code> není zadán, použije se výchozí hodnota <code>1.0</code> (100 %).
+          </p>
+        </div>
+      `;
+    }
+  </script>
+</body>
+</html>
