@@ -1,5 +1,4 @@
 import json
-
 import requests
 from bs4 import BeautifulSoup
 # import pandas as pd
@@ -19,7 +18,8 @@ cps_year = str(datetime.today().year)
 LKCM_coordinates = (49.2369444, 16.5552778)
 start_buffer_km = 20
 
-
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+output_path = os.path.join(BASE_DIR, 'soutez_vysledky.json')
 
 def is_within_distance(coord1, coord2):
     distance = geodesic(coord1, coord2).km
@@ -156,47 +156,15 @@ def main():
         "pilots_info": pilots_info,
     }
 
-    with open('/home/lkcm/LKCM-klubova-soutez/soutez_vysledky.json', 'w', encoding="utf-8") as f:
+    with open(output_path, 'w', encoding="utf-8") as f:
         json.dump(soutez_vysledky, f, ensure_ascii=False, indent=2)
 
     print()
 
-    html_content = '<!DOCTYPE html><html lang="cs"><head><meta charset="UTF-8">'
-    html_content += '<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">'
-    html_content += '</head><body>'
-
-    html_content += "<div class='container-fluid ml-2 mr-2'>"
-    html_content += f"<h1>AK Medlánky - Klubová soutěž {cps_year}</h1>"
-    html_content += f"<p>Aktualizováno: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}</p>"
-    html_content += "<div class='row'>"
-
-    # Table
-    html_content += "<div class='col-xl-6 col-lg-8 col-md-10'>"
-    html_content += "<table class='table table-striped'>"
-    html_content += "<tr><th>#</th><th>Jméno</th><th>Rok</th><th colspan='4'>4 nejlepší lety</th><!--th>Let 2</th><th>Let 3</th><th>Let 4</th--><th>Celkem</th></tr>"
-    for i, pilot in enumerate(pilots_info, start=1):
-        flights = pilot['top_4_lkcm_flights']
-        lety = []
-        for flight in flights:
-            lety.append(
-                f'<a href="{flight["url"]}" title="{flight["date"]}"><b>{flight["points"]}</b><span style="font-size: 0.6rem">&nbsp;b</span></a>')
-        nejlepsi_lety = lety + [''] * (4 - len(lety))
-        html_content += f"<tr><td>{i}</td><td><a href='{pilot['url']}'>{pilot['name']}</a></td><td>{pilot['year_of_birth']}</td><td>{nejlepsi_lety[0]}</td><td>{nejlepsi_lety[1]}</td><td>{nejlepsi_lety[2]}</td><td>{nejlepsi_lety[3]}</td><td><b>{pilot['sum_of_points']}</b><span style='font-size: 0.6rem'>&nbsp;b</span></td></tr>"
-    html_content += "</table>"
-    html_content += "</div>"
-
-    html_content += "</div>"  # Close row
-    html_content += "<hr/><h3>Pravidla</h3><ul><li>započítává lety z CPS - modré i šedé body</li><li>započítává pouze lety, které mají startovní pásku maximálně ve vzdálenosti 20km od vztažného bodu LKCM</li><li>každému pilotovi se započítávají 4 nejlepší lety v daném roce</li></ul>"
-    html_content += "</div>"  # Close container
-    html_content += '</body></html>'
-
-    with open('/home/lkcm/LKCM-klubova-soutez/index.html', 'w', encoding='utf-8') as f:
-        f.write(html_content)
-
     ftp = ftp_upload.connect_to_ftp(os.getenv('FTP_SERVER'), os.getenv('FTP_USERNAME'), os.getenv('FTP_PASSWORD'))
     if ftp:
-        ftp_upload.upload_file_to_ftp(ftp, "/home/lkcm/LKCM-klubova-soutez/soutez_vysledky.json", "/www/subdom/lkcm/soutez_v2/soutez_vysledky.json")
-        ftp_upload.upload_file_to_ftp(ftp, "/home/lkcm/LKCM-klubova-soutez/index.html", "/www/subdom/lkcm/soutez/index.html")
+        ftp_upload.upload_file_to_ftp(ftp, output_path, "/www/subdom/lkcm/soutez/soutez_vysledky.json")
+
         ftp.quit()
 
 if __name__ == '__main__':
