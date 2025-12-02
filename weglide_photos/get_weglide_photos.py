@@ -20,8 +20,12 @@ def scrape_images():
 
         # Lety Michal Cupak
         # url = 'https://api.weglide.org/v1/flight?user_id_in=11692&contest=free&order_by=-scoring_date&not_scored=false&story=false&valid=false&skip=0&limit=100&include_story=true&include_stats=false&format=json'
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36",
+            "Accept": "application/json",
+        }
 
-        response = requests.get(url)
+        response = requests.get(url, headers=headers)
         response.raise_for_status()
         data = response.json()
         images = []
