@@ -10,6 +10,9 @@ load_dotenv()
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 output_path = os.path.join(BASE_DIR, 'image_urls.json')
 
+def convert_date(d):
+    return datetime.strptime(d, "%Y-%m-%d").strftime("%d.%m.%Y")
+
 def scrape_images():
     try:
         # poslednich 100 letu v CR
@@ -34,10 +37,13 @@ def scrape_images():
                 for image_url in flight['story']:
                     if image_url.endswith(('.jpg', '.png')):
                         large_image_url = image_url.replace('_small', '')
+                        pilot = flight['user']['name']
+                        if "co_user" in flight and flight['co_user']['name'] != pilot:
+                            pilot += ' & ' + flight['co_user']['name']
                         images.append({
                             "url": f'https://weglidefiles.b-cdn.net/{large_image_url}',
-                            "pilot": flight['user']['name'],
-                            "datum": flight['scoring_date'],
+                            "pilot": pilot,
+                            "datum": convert_date(flight['scoring_date']),
                         })
         return images
     except Exception as e:
