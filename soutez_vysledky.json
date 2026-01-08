@@ -1,6 +1,6 @@
 {
   "cps_year": "2025",
-  "updated_at": "03. 11. 2025 15:19:13",
+  "updated_at": "08. 01. 2026 23:23:42",
   "pilots_info": [
     {
       "name": "Michal Poslužný",
@@ -15,7 +15,16 @@
             49.236783333333335,
             16.555283333333332
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "open",
+          "glider_name": "JS3 (RES/TJ) 18m",
+          "task_distance_km": 901.4,
+          "task_speed_kmh": 116.06,
+          "task_shape": "FAI trojúhelník",
+          "task_type": "rychlostní let podle deklarace ⇴",
+          "pilot": "Michal Poslužný",
+          "pilot_year_of_birth": "1968",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=48&sez_rok=2025"
         },
         {
           "date": "20.08.2025",
@@ -25,7 +34,13 @@
             49.23688333333333,
             16.555366666666668
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "open",
+          "glider_name": "JS3 (RES/TJ) 18m",
+          "task_distance_km": 802.3,
+          "task_speed_kmh": 97.79,
+          "task_shape": "FAI trojúhelník",
+          "task_type": "rychlostní let podle deklarace ⇴"
         },
         {
           "date": "25.05.2025",
@@ -35,7 +50,13 @@
             49.23688333333333,
             16.555366666666668
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "open",
+          "glider_name": "JS3 (RES/TJ) 18m",
+          "task_distance_km": 757.0,
+          "task_speed_kmh": 99.47,
+          "task_shape": "FAI trojúhelník s odletem z ramene",
+          "task_type": "rychlostní let podle deklarace ⇴"
         },
         {
           "date": "24.05.2025",
@@ -45,10 +66,37 @@
             49.23688333333333,
             16.555366666666668
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "open",
+          "glider_name": "JS3 (RES/TJ) 18m",
+          "task_distance_km": 798.1,
+          "task_speed_kmh": 102.1,
+          "task_shape": "trojúhelník s odletem z ramene",
+          "task_type": "rychlostní let se změnou tratě za letu"
         }
       ],
-      "sum_of_points": 5105
+      "sum_of_points": 5105,
+      "best_lkcm_flights_by_category": {
+        "open": {
+          "date": "09.05.2025",
+          "points": 1543,
+          "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=183393",
+          "start_coordinates": [
+            49.236783333333335,
+            16.555283333333332
+          ],
+          "lkcm_start": true,
+          "category": "open",
+          "glider_name": "JS3 (RES/TJ) 18m",
+          "task_distance_km": 901.4,
+          "task_speed_kmh": 116.06,
+          "task_shape": "FAI trojúhelník",
+          "task_type": "rychlostní let podle deklarace ⇴",
+          "pilot": "Michal Poslužný",
+          "pilot_year_of_birth": "1968",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=48&sez_rok=2025"
+        }
+      }
     },
     {
       "name": "Michal Cupák",
@@ -63,7 +111,16 @@
             49.25416666666667,
             16.51805
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "Std. Cirrus",
+          "task_distance_km": 594.6,
+          "task_speed_kmh": 88.97,
+          "task_shape": "návratová",
+          "task_type": "rychlostní let podle deklarace ⇴",
+          "pilot": "Michal Cupák",
+          "pilot_year_of_birth": "1991",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=2954&sez_rok=2025"
         },
         {
           "date": "15.08.2025",
@@ -73,7 +130,16 @@
             49.2825,
             16.564716666666666
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "open",
+          "glider_name": "Ventus c /17,6m",
+          "task_distance_km": 597.7,
+          "task_speed_kmh": 114.85,
+          "task_shape": "trojúhelník s odletem z ramene",
+          "task_type": "rychlostní let podle deklarace ⇴",
+          "pilot": "Michal Cupák",
+          "pilot_year_of_birth": "1991",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=2954&sez_rok=2025"
         },
         {
           "date": "24.05.2025",
@@ -83,7 +149,13 @@
             49.305166666666665,
             16.57605
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "Std. Cirrus",
+          "task_distance_km": 626.3,
+          "task_speed_kmh": 77.15,
+          "task_shape": "trojúhelník s odletem z ramene",
+          "task_type": "rychlostní let se změnou tratě za letu"
         },
         {
           "date": "24.08.2025",
@@ -93,10 +165,56 @@
             49.254266666666666,
             16.5422
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "open",
+          "glider_name": "Ventus c /17,6m",
+          "task_distance_km": 629.0,
+          "task_speed_kmh": 96.42,
+          "task_shape": "polygon s 3OB",
+          "task_type": "rychlostní let se změnou tratě za letu"
         }
       ],
-      "sum_of_points": 3968
+      "sum_of_points": 3968,
+      "best_lkcm_flights_by_category": {
+        "club": {
+          "date": "20.08.2025",
+          "points": 1152,
+          "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=189238",
+          "start_coordinates": [
+            49.25416666666667,
+            16.51805
+          ],
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "Std. Cirrus",
+          "task_distance_km": 594.6,
+          "task_speed_kmh": 88.97,
+          "task_shape": "návratová",
+          "task_type": "rychlostní let podle deklarace ⇴",
+          "pilot": "Michal Cupák",
+          "pilot_year_of_birth": "1991",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=2954&sez_rok=2025"
+        },
+        "open": {
+          "date": "15.08.2025",
+          "points": 1059,
+          "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=188646",
+          "start_coordinates": [
+            49.2825,
+            16.564716666666666
+          ],
+          "lkcm_start": true,
+          "category": "open",
+          "glider_name": "Ventus c /17,6m",
+          "task_distance_km": 597.7,
+          "task_speed_kmh": 114.85,
+          "task_shape": "trojúhelník s odletem z ramene",
+          "task_type": "rychlostní let podle deklarace ⇴",
+          "pilot": "Michal Cupák",
+          "pilot_year_of_birth": "1991",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=2954&sez_rok=2025"
+        }
+      }
     },
     {
       "name": "Jan Šťastný",
@@ -111,7 +229,16 @@
             49.26785,
             16.54295
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "open",
+          "glider_name": "LS-8-18 18m",
+          "task_distance_km": 701.3,
+          "task_speed_kmh": 118.78,
+          "task_shape": "trojúhelník",
+          "task_type": "rychlostní let podle deklarace ⇴",
+          "pilot": "Jan Šťastný",
+          "pilot_year_of_birth": "2003",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=3454&sez_rok=2025"
         },
         {
           "date": "13.05.2025",
@@ -121,7 +248,13 @@
             49.33663333333333,
             16.5536
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "open",
+          "glider_name": "ASW-20 (A)+F /15m +WL",
+          "task_distance_km": 653.4,
+          "task_speed_kmh": 104.92,
+          "task_shape": "polygon s 3OB",
+          "task_type": "rychlostní let podle deklarace ⇴"
         },
         {
           "date": "20.06.2025",
@@ -131,7 +264,13 @@
             49.2445,
             16.56185
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "open",
+          "glider_name": "ASW-20 B(L) /15m",
+          "task_distance_km": 401.5,
+          "task_speed_kmh": 120.41,
+          "task_shape": "trojúhelník",
+          "task_type": "rychlostní let podle deklarace ⇴"
         },
         {
           "date": "25.08.2025",
@@ -141,10 +280,37 @@
             49.23695,
             16.555283333333332
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "open",
+          "glider_name": "LS-8-18 18m",
+          "task_distance_km": 387.9,
+          "task_speed_kmh": 112.45,
+          "task_shape": "trojúhelník",
+          "task_type": "rychlostní let se změnou tratě za letu"
         }
       ],
-      "sum_of_points": 3830
+      "sum_of_points": 3830,
+      "best_lkcm_flights_by_category": {
+        "open": {
+          "date": "20.08.2025",
+          "points": 1243,
+          "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=189267",
+          "start_coordinates": [
+            49.26785,
+            16.54295
+          ],
+          "lkcm_start": true,
+          "category": "open",
+          "glider_name": "LS-8-18 18m",
+          "task_distance_km": 701.3,
+          "task_speed_kmh": 118.78,
+          "task_shape": "trojúhelník",
+          "task_type": "rychlostní let podle deklarace ⇴",
+          "pilot": "Jan Šťastný",
+          "pilot_year_of_birth": "2003",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=3454&sez_rok=2025"
+        }
+      }
     },
     {
       "name": "Pavel Schoř",
@@ -159,7 +325,16 @@
             49.23695,
             16.555
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "open",
+          "glider_name": "LAK 12",
+          "task_distance_km": 552.3,
+          "task_speed_kmh": 93.47,
+          "task_shape": "návratová",
+          "task_type": "rychlostní let podle deklarace ⇴",
+          "pilot": "Pavel Schoř",
+          "pilot_year_of_birth": "1985",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=429&sez_rok=2025"
         },
         {
           "date": "12.05.2025",
@@ -169,7 +344,13 @@
             49.236783333333335,
             16.555283333333332
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "open",
+          "glider_name": "LAK 12",
+          "task_distance_km": 516.1,
+          "task_speed_kmh": 77.64,
+          "task_shape": "FAI trojúhelník",
+          "task_type": "rychlostní let podle deklarace ⇴"
         },
         {
           "date": "13.05.2025",
@@ -179,7 +360,13 @@
             49.33583333333333,
             16.5525
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "open",
+          "glider_name": "LAK 12",
+          "task_distance_km": 473.2,
+          "task_speed_kmh": 81.79,
+          "task_shape": "FAI trojúhelník s odletem z ramene",
+          "task_type": "rychlostní let podle deklarace ⇴"
         },
         {
           "date": "02.05.2025",
@@ -189,10 +376,37 @@
             49.322783333333334,
             16.34695
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "open",
+          "glider_name": "LAK 12",
+          "task_distance_km": 444.0,
+          "task_speed_kmh": 83.65,
+          "task_shape": "návratová",
+          "task_type": "rychlostní let podle deklarace ⇴"
         }
       ],
-      "sum_of_points": 3325
+      "sum_of_points": 3325,
+      "best_lkcm_flights_by_category": {
+        "open": {
+          "date": "20.08.2025",
+          "points": 926,
+          "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=189251",
+          "start_coordinates": [
+            49.23695,
+            16.555
+          ],
+          "lkcm_start": true,
+          "category": "open",
+          "glider_name": "LAK 12",
+          "task_distance_km": 552.3,
+          "task_speed_kmh": 93.47,
+          "task_shape": "návratová",
+          "task_type": "rychlostní let podle deklarace ⇴",
+          "pilot": "Pavel Schoř",
+          "pilot_year_of_birth": "1985",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=429&sez_rok=2025"
+        }
+      }
     },
     {
       "name": "Jaroslav Zavřel",
@@ -207,7 +421,16 @@
             49.336666666666666,
             16.553616666666667
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "TST-10M Atlas",
+          "task_distance_km": 346.1,
+          "task_speed_kmh": 81.36,
+          "task_shape": "návratová",
+          "task_type": "rychlostní let podle deklarace ⇴",
+          "pilot": "Jaroslav Zavřel",
+          "pilot_year_of_birth": "1971",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=147&sez_rok=2025"
         },
         {
           "date": "20.08.2025",
@@ -217,7 +440,13 @@
             49.336666666666666,
             16.553616666666667
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "TST-10M Atlas",
+          "task_distance_km": 351.4,
+          "task_speed_kmh": 79.17,
+          "task_shape": "trojúhelník",
+          "task_type": "rychlostní let podle deklarace ⇴"
         },
         {
           "date": "12.05.2025",
@@ -227,7 +456,13 @@
             49.336666666666666,
             16.553616666666667
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "TST-10M Atlas",
+          "task_distance_km": 346.6,
+          "task_speed_kmh": 73.99,
+          "task_shape": "návratová",
+          "task_type": "rychlostní let podle deklarace ⇴"
         },
         {
           "date": "01.05.2025",
@@ -237,10 +472,37 @@
             49.236666666666665,
             16.555266666666668
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "TST-10M Atlas",
+          "task_distance_km": 310.9,
+          "task_speed_kmh": 66.15,
+          "task_shape": "trojúhelník",
+          "task_type": "rychlostní let podle deklarace ⇴"
         }
       ],
-      "sum_of_points": 2864
+      "sum_of_points": 2864,
+      "best_lkcm_flights_by_category": {
+        "club": {
+          "date": "15.08.2025",
+          "points": 762,
+          "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=189259",
+          "start_coordinates": [
+            49.336666666666666,
+            16.553616666666667
+          ],
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "TST-10M Atlas",
+          "task_distance_km": 346.1,
+          "task_speed_kmh": 81.36,
+          "task_shape": "návratová",
+          "task_type": "rychlostní let podle deklarace ⇴",
+          "pilot": "Jaroslav Zavřel",
+          "pilot_year_of_birth": "1971",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=147&sez_rok=2025"
+        }
+      }
     },
     {
       "name": "Vít Prokop",
@@ -255,7 +517,16 @@
             49.2425,
             16.55305
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "Std. Cirrus",
+          "task_distance_km": 401.0,
+          "task_speed_kmh": 91.54,
+          "task_shape": "FAI trojúhelník s odletem z ramene",
+          "task_type": "rychlostní let podle deklarace ⇴",
+          "pilot": "Vít Prokop",
+          "pilot_year_of_birth": "1987",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=2690&sez_rok=2025"
         },
         {
           "date": "09.05.2025",
@@ -265,7 +536,16 @@
             49.240833333333335,
             16.560833333333335
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "open",
+          "glider_name": "Ventus c /17,6m",
+          "task_distance_km": 509.6,
+          "task_speed_kmh": 83.64,
+          "task_shape": "trojúhelník",
+          "task_type": "rychlostní let podle deklarace ⇴",
+          "pilot": "Vít Prokop",
+          "pilot_year_of_birth": "1987",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=2690&sez_rok=2025"
         },
         {
           "date": "20.08.2025",
@@ -275,7 +555,13 @@
             49.2825,
             16.564716666666666
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "open",
+          "glider_name": "Ventus c /17,6m",
+          "task_distance_km": 500.0,
+          "task_speed_kmh": 94.64,
+          "task_shape": "2OB",
+          "task_type": "volný let na vzdálenost"
         },
         {
           "date": "04.04.2025",
@@ -285,10 +571,56 @@
             49.23695,
             16.555
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "open",
+          "glider_name": "Ventus c /17,6m",
+          "task_distance_km": 278.5,
+          "task_speed_kmh": 73.83,
+          "task_shape": "FAI trojúhelník",
+          "task_type": "rychlostní let se změnou tratě za letu"
         }
       ],
-      "sum_of_points": 2607
+      "sum_of_points": 2607,
+      "best_lkcm_flights_by_category": {
+        "club": {
+          "date": "15.08.2025",
+          "points": 907,
+          "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=188631",
+          "start_coordinates": [
+            49.2425,
+            16.55305
+          ],
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "Std. Cirrus",
+          "task_distance_km": 401.0,
+          "task_speed_kmh": 91.54,
+          "task_shape": "FAI trojúhelník s odletem z ramene",
+          "task_type": "rychlostní let podle deklarace ⇴",
+          "pilot": "Vít Prokop",
+          "pilot_year_of_birth": "1987",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=2690&sez_rok=2025"
+        },
+        "open": {
+          "date": "09.05.2025",
+          "points": 789,
+          "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=183292",
+          "start_coordinates": [
+            49.240833333333335,
+            16.560833333333335
+          ],
+          "lkcm_start": true,
+          "category": "open",
+          "glider_name": "Ventus c /17,6m",
+          "task_distance_km": 509.6,
+          "task_speed_kmh": 83.64,
+          "task_shape": "trojúhelník",
+          "task_type": "rychlostní let podle deklarace ⇴",
+          "pilot": "Vít Prokop",
+          "pilot_year_of_birth": "1987",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=2690&sez_rok=2025"
+        }
+      }
     },
     {
       "name": "Jan Gottvald",
@@ -303,7 +635,16 @@
             49.26235,
             16.55095
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "zakladni",
+          "glider_name": "L-13 Blaník",
+          "task_distance_km": 277.4,
+          "task_speed_kmh": 63.39,
+          "task_shape": "trojúhelník",
+          "task_type": "rychlostní let podle deklarace ⇴",
+          "pilot": "Jan Gottvald",
+          "pilot_year_of_birth": "1983",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=2935&sez_rok=2025"
         },
         {
           "date": "30.04.2025",
@@ -313,7 +654,16 @@
             49.236783333333335,
             16.555283333333332
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "classic",
+          "glider_name": "VT-116 Orlik II",
+          "task_distance_km": 301.6,
+          "task_speed_kmh": 56.09,
+          "task_shape": "FAI trojúhelník s odletem z ramene",
+          "task_type": "rychlostní let podle deklarace ⇴",
+          "pilot": "Jan Gottvald",
+          "pilot_year_of_birth": "1983",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=2935&sez_rok=2025"
         },
         {
           "date": "24.05.2025",
@@ -323,7 +673,13 @@
             49.236783333333335,
             16.555283333333332
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "classic",
+          "glider_name": "VT-116 Orlik II",
+          "task_distance_km": 289.8,
+          "task_speed_kmh": 56.24,
+          "task_shape": "FAI trojúhelník",
+          "task_type": "rychlostní let se změnou tratě za letu"
         },
         {
           "date": "15.08.2025",
@@ -333,10 +689,56 @@
             49.236783333333335,
             16.555283333333332
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "zakladni",
+          "glider_name": "L-13 Blaník",
+          "task_distance_km": 135.5,
+          "task_speed_kmh": 69.87,
+          "task_shape": "FAI trojúhelník",
+          "task_type": "rychlostní let podle deklarace ⇴"
         }
       ],
-      "sum_of_points": 2554
+      "sum_of_points": 2554,
+      "best_lkcm_flights_by_category": {
+        "zakladni": {
+          "date": "20.08.2025",
+          "points": 735,
+          "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=189170",
+          "start_coordinates": [
+            49.26235,
+            16.55095
+          ],
+          "lkcm_start": true,
+          "category": "zakladni",
+          "glider_name": "L-13 Blaník",
+          "task_distance_km": 277.4,
+          "task_speed_kmh": 63.39,
+          "task_shape": "trojúhelník",
+          "task_type": "rychlostní let podle deklarace ⇴",
+          "pilot": "Jan Gottvald",
+          "pilot_year_of_birth": "1983",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=2935&sez_rok=2025"
+        },
+        "classic": {
+          "date": "30.04.2025",
+          "points": 726,
+          "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=182126",
+          "start_coordinates": [
+            49.236783333333335,
+            16.555283333333332
+          ],
+          "lkcm_start": true,
+          "category": "classic",
+          "glider_name": "VT-116 Orlik II",
+          "task_distance_km": 301.6,
+          "task_speed_kmh": 56.09,
+          "task_shape": "FAI trojúhelník s odletem z ramene",
+          "task_type": "rychlostní let podle deklarace ⇴",
+          "pilot": "Jan Gottvald",
+          "pilot_year_of_birth": "1983",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=2935&sez_rok=2025"
+        }
+      }
     },
     {
       "name": "Gustav Vrbacký",
@@ -351,7 +753,16 @@
             49.23695,
             16.555
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "TST-10M Atlas",
+          "task_distance_km": 313.8,
+          "task_speed_kmh": 82.37,
+          "task_shape": "trojúhelník",
+          "task_type": "rychlostní let podle deklarace ⇴",
+          "pilot": "Gustav Vrbacký",
+          "pilot_year_of_birth": "1933",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=88&sez_rok=2025"
         },
         {
           "date": "29.04.2025",
@@ -361,7 +772,13 @@
             49.23695,
             16.555
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "TST-10M Atlas",
+          "task_distance_km": 318.7,
+          "task_speed_kmh": 71.76,
+          "task_shape": "návratová",
+          "task_type": "rychlostní let podle deklarace ⇴"
         },
         {
           "date": "06.08.2025",
@@ -371,7 +788,13 @@
             49.23695,
             16.555
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "TST-10M Atlas",
+          "task_distance_km": 313.8,
+          "task_speed_kmh": 60.79,
+          "task_shape": "trojúhelník",
+          "task_type": "rychlostní let podle deklarace ⇴"
         },
         {
           "date": "01.05.2025",
@@ -381,10 +804,37 @@
             49.23695,
             16.555
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "TST-10M Atlas",
+          "task_distance_km": 201.2,
+          "task_speed_kmh": 74.74,
+          "task_shape": "FAI trojúhelník",
+          "task_type": "rychlostní let podle deklarace ⇴"
         }
       ],
-      "sum_of_points": 2475
+      "sum_of_points": 2475,
+      "best_lkcm_flights_by_category": {
+        "club": {
+          "date": "20.08.2025",
+          "points": 709,
+          "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=189188",
+          "start_coordinates": [
+            49.23695,
+            16.555
+          ],
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "TST-10M Atlas",
+          "task_distance_km": 313.8,
+          "task_speed_kmh": 82.37,
+          "task_shape": "trojúhelník",
+          "task_type": "rychlostní let podle deklarace ⇴",
+          "pilot": "Gustav Vrbacký",
+          "pilot_year_of_birth": "1933",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=88&sez_rok=2025"
+        }
+      }
     },
     {
       "name": "Michal Šťastný",
@@ -399,7 +849,16 @@
             49.2375,
             16.558316666666666
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "open",
+          "glider_name": "Nimbus-2c",
+          "task_distance_km": 367.1,
+          "task_speed_kmh": 89.51,
+          "task_shape": "FAI trojúhelník",
+          "task_type": "rychlostní let podle deklarace ⇴",
+          "pilot": "Michal Šťastný",
+          "pilot_year_of_birth": "1970",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=265&sez_rok=2025"
         },
         {
           "date": "24.08.2025",
@@ -409,7 +868,16 @@
             49.23676666666667,
             16.555266666666668
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "Janus c/cM/cT",
+          "task_distance_km": 324.8,
+          "task_speed_kmh": 77.89,
+          "task_shape": "trojúhelník",
+          "task_type": "rychlostní let podle deklarace ⇴",
+          "pilot": "Michal Šťastný",
+          "pilot_year_of_birth": "1970",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=265&sez_rok=2025"
         },
         {
           "date": "30.04.2025",
@@ -419,7 +887,13 @@
             49.2375,
             16.558316666666666
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "open",
+          "glider_name": "Nimbus-2c",
+          "task_distance_km": 343.2,
+          "task_speed_kmh": 82.5,
+          "task_shape": "trojúhelník",
+          "task_type": "rychlostní let podle deklarace ⇴"
         },
         {
           "date": "04.04.2025",
@@ -429,10 +903,56 @@
             49.336666666666666,
             16.553616666666667
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "open",
+          "glider_name": "Nimbus-2c",
+          "task_distance_km": 280.5,
+          "task_speed_kmh": 95.1,
+          "task_shape": "polygon s 3OB",
+          "task_type": "rychlostní let podle deklarace ⇴"
         }
       ],
-      "sum_of_points": 2378
+      "sum_of_points": 2378,
+      "best_lkcm_flights_by_category": {
+        "open": {
+          "date": "01.05.2025",
+          "points": 696,
+          "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=182910",
+          "start_coordinates": [
+            49.2375,
+            16.558316666666666
+          ],
+          "lkcm_start": true,
+          "category": "open",
+          "glider_name": "Nimbus-2c",
+          "task_distance_km": 367.1,
+          "task_speed_kmh": 89.51,
+          "task_shape": "FAI trojúhelník",
+          "task_type": "rychlostní let podle deklarace ⇴",
+          "pilot": "Michal Šťastný",
+          "pilot_year_of_birth": "1970",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=265&sez_rok=2025"
+        },
+        "club": {
+          "date": "24.08.2025",
+          "points": 610,
+          "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=189733",
+          "start_coordinates": [
+            49.23676666666667,
+            16.555266666666668
+          ],
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "Janus c/cM/cT",
+          "task_distance_km": 324.8,
+          "task_speed_kmh": 77.89,
+          "task_shape": "trojúhelník",
+          "task_type": "rychlostní let podle deklarace ⇴",
+          "pilot": "Michal Šťastný",
+          "pilot_year_of_birth": "1970",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=265&sez_rok=2025"
+        }
+      }
     },
     {
       "name": "Matyáš John",
@@ -447,7 +967,16 @@
             49.26235,
             16.55095
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "Std. Cirrus",
+          "task_distance_km": 502.0,
+          "task_speed_kmh": 81.28,
+          "task_shape": "návratová",
+          "task_type": "rychlostní let podle deklarace ⇴",
+          "pilot": "Matyáš John",
+          "pilot_year_of_birth": "2002",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=4519&sez_rok=2025"
         },
         {
           "date": "15.08.2025",
@@ -457,7 +986,13 @@
             49.26235,
             16.55095
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "Std. Cirrus",
+          "task_distance_km": 303.0,
+          "task_speed_kmh": 85.85,
+          "task_shape": "návratová",
+          "task_type": "rychlostní let podle deklarace ⇴"
         },
         {
           "date": "19.08.2025",
@@ -467,7 +1002,13 @@
             49.300983333333335,
             16.53425
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "Std. Cirrus",
+          "task_distance_km": 244.0,
+          "task_speed_kmh": 65.25,
+          "task_shape": "trojúhelník",
+          "task_type": "rychlostní let se změnou tratě za letu"
         },
         {
           "date": "06.07.2025",
@@ -477,10 +1018,37 @@
             49.300983333333335,
             16.53425
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "Std. Cirrus",
+          "task_distance_km": 200.4,
+          "task_speed_kmh": 67.34,
+          "task_shape": "polygon s 5OB",
+          "task_type": "rychlostní let se změnou tratě za letu"
         }
       ],
-      "sum_of_points": 2261
+      "sum_of_points": 2261,
+      "best_lkcm_flights_by_category": {
+        "club": {
+          "date": "20.08.2025",
+          "points": 953,
+          "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=189235",
+          "start_coordinates": [
+            49.26235,
+            16.55095
+          ],
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "Std. Cirrus",
+          "task_distance_km": 502.0,
+          "task_speed_kmh": 81.28,
+          "task_shape": "návratová",
+          "task_type": "rychlostní let podle deklarace ⇴",
+          "pilot": "Matyáš John",
+          "pilot_year_of_birth": "2002",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=4519&sez_rok=2025"
+        }
+      }
     },
     {
       "name": "Jan Buchta",
@@ -495,7 +1063,16 @@
             49.2623,
             16.5509
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "DG-300 (450 kg)",
+          "task_distance_km": 502.0,
+          "task_speed_kmh": 80.57,
+          "task_shape": "návratová",
+          "task_type": "rychlostní let podle deklarace ⇴",
+          "pilot": "Jan Buchta",
+          "pilot_year_of_birth": "1974",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=4433&sez_rok=2025"
         },
         {
           "date": "24.08.2025",
@@ -505,7 +1082,13 @@
             49.2623,
             16.5509
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "DG-300 (450 kg)",
+          "task_distance_km": 315.3,
+          "task_speed_kmh": 67.4,
+          "task_shape": "FAI trojúhelník",
+          "task_type": "rychlostní let podle deklarace ⇴"
         },
         {
           "date": "15.08.2025",
@@ -515,7 +1098,13 @@
             49.2623,
             16.5509
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "DG-300 (450 kg)",
+          "task_distance_km": 303.0,
+          "task_speed_kmh": 69.63,
+          "task_shape": "návratová",
+          "task_type": "rychlostní let podle deklarace ⇴"
         },
         {
           "date": "01.05.2025",
@@ -525,10 +1114,37 @@
             49.23695,
             16.555283333333332
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "DG-300 (450 kg)",
+          "task_distance_km": 125.4,
+          "task_speed_kmh": 57.4,
+          "task_shape": "návratová",
+          "task_type": "rychlostní let podle deklarace ⇴"
         }
       ],
-      "sum_of_points": 2233
+      "sum_of_points": 2233,
+      "best_lkcm_flights_by_category": {
+        "club": {
+          "date": "20.08.2025",
+          "points": 897,
+          "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=189301",
+          "start_coordinates": [
+            49.2623,
+            16.5509
+          ],
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "DG-300 (450 kg)",
+          "task_distance_km": 502.0,
+          "task_speed_kmh": 80.57,
+          "task_shape": "návratová",
+          "task_type": "rychlostní let podle deklarace ⇴",
+          "pilot": "Jan Buchta",
+          "pilot_year_of_birth": "1974",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=4433&sez_rok=2025"
+        }
+      }
     },
     {
       "name": "Vít Hrdlička",
@@ -543,7 +1159,16 @@
             49.23695,
             16.555
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "Discus CS",
+          "task_distance_km": 300.6,
+          "task_speed_kmh": 93.22,
+          "task_shape": "trojúhelník",
+          "task_type": "rychlostní let podle deklarace ⇴",
+          "pilot": "Vít Hrdlička",
+          "pilot_year_of_birth": "1960",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=164&sez_rok=2025"
         },
         {
           "date": "01.05.2025",
@@ -553,7 +1178,13 @@
             49.23695,
             16.555
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "Discus CS",
+          "task_distance_km": 310.0,
+          "task_speed_kmh": 74.94,
+          "task_shape": "FAI trojúhelník",
+          "task_type": "rychlostní let podle deklarace ⇴"
         },
         {
           "date": "09.05.2025",
@@ -563,7 +1194,13 @@
             49.23695,
             16.555
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "Discus CS",
+          "task_distance_km": 401.1,
+          "task_speed_kmh": 68.07,
+          "task_shape": "polygon s 3OB",
+          "task_type": "rychlostní let podle deklarace ⇴"
         },
         {
           "date": "25.08.2025",
@@ -573,10 +1210,56 @@
             49.23695,
             16.555
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "Discus CS",
+          "task_distance_km": 318.9,
+          "task_speed_kmh": 76.88,
+          "task_shape": "polygon s 3OB",
+          "task_type": "rychlostní let se změnou tratě za letu"
         }
       ],
-      "sum_of_points": 2218
+      "sum_of_points": 2218,
+      "best_lkcm_flights_by_category": {
+        "club": {
+          "date": "20.08.2025",
+          "points": 607,
+          "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=189774",
+          "start_coordinates": [
+            49.23695,
+            16.555
+          ],
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "Discus CS",
+          "task_distance_km": 300.6,
+          "task_speed_kmh": 93.22,
+          "task_shape": "trojúhelník",
+          "task_type": "rychlostní let podle deklarace ⇴",
+          "pilot": "Vít Hrdlička",
+          "pilot_year_of_birth": "1960",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=164&sez_rok=2025"
+        },
+        "zakladni": {
+          "date": "24.08.2025",
+          "points": 202,
+          "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=189577",
+          "start_coordinates": [
+            49.236783333333335,
+            16.555283333333332
+          ],
+          "lkcm_start": true,
+          "category": "zakladni",
+          "glider_name": "LG-125 Šohaj 2",
+          "task_distance_km": 117.1,
+          "task_speed_kmh": 43.54,
+          "task_shape": "polygon s 5OB",
+          "task_type": "rychlostní let se změnou tratě za letu",
+          "pilot": "Vít Hrdlička",
+          "pilot_year_of_birth": "1960",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=164&sez_rok=2025"
+        }
+      }
     },
     {
       "name": "Martin Šťastný",
@@ -591,7 +1274,16 @@
             49.236783333333335,
             16.555283333333332
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "Std. Cirrus WL",
+          "task_distance_km": 410.9,
+          "task_speed_kmh": 84.97,
+          "task_shape": "polygon s 3OB",
+          "task_type": "rychlostní let podle deklarace ⇴",
+          "pilot": "Martin Šťastný",
+          "pilot_year_of_birth": "2005",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=4011&sez_rok=2025"
         },
         {
           "date": "01.05.2025",
@@ -601,7 +1293,13 @@
             49.2369,
             16.5553
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "Std. Cirrus WL",
+          "task_distance_km": 352.9,
+          "task_speed_kmh": 69.62,
+          "task_shape": "FAI trojúhelník",
+          "task_type": "rychlostní let podle deklarace ⇴"
         },
         {
           "date": "05.07.2025",
@@ -611,7 +1309,13 @@
             49.31315,
             16.576816666666666
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "Std. Cirrus WL",
+          "task_distance_km": 303.9,
+          "task_speed_kmh": 78.49,
+          "task_shape": "polygon s 5OB",
+          "task_type": "rychlostní let podle deklarace ⇴"
         },
         {
           "date": "09.05.2025",
@@ -621,10 +1325,37 @@
             49.296366666666664,
             16.5255
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "Std. Cirrus WL",
+          "task_distance_km": 201.4,
+          "task_speed_kmh": 73.85,
+          "task_shape": "2OB",
+          "task_type": "volný let na vzdálenost"
         }
       ],
-      "sum_of_points": 2206
+      "sum_of_points": 2206,
+      "best_lkcm_flights_by_category": {
+        "club": {
+          "date": "30.04.2025",
+          "points": 754,
+          "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=182123",
+          "start_coordinates": [
+            49.236783333333335,
+            16.555283333333332
+          ],
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "Std. Cirrus WL",
+          "task_distance_km": 410.9,
+          "task_speed_kmh": 84.97,
+          "task_shape": "polygon s 3OB",
+          "task_type": "rychlostní let podle deklarace ⇴",
+          "pilot": "Martin Šťastný",
+          "pilot_year_of_birth": "2005",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=4011&sez_rok=2025"
+        }
+      }
     },
     {
       "name": "Roman Pavlík",
@@ -639,7 +1370,16 @@
             49.308883333333334,
             16.612216666666665
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "ASW-24(A)+WL",
+          "task_distance_km": 403.4,
+          "task_speed_kmh": 81.9,
+          "task_shape": "polygon s 3OB",
+          "task_type": "rychlostní let podle deklarace ⇴",
+          "pilot": "Roman Pavlík",
+          "pilot_year_of_birth": "1971",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=2662&sez_rok=2025"
         },
         {
           "date": "12.05.2025",
@@ -649,7 +1389,13 @@
             49.23695,
             16.555
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "ASW-24(A)+WL",
+          "task_distance_km": 402.7,
+          "task_speed_kmh": 67.01,
+          "task_shape": "polygon s 3OB",
+          "task_type": "rychlostní let podle deklarace ⇴"
         },
         {
           "date": "01.05.2025",
@@ -659,7 +1405,13 @@
             49.26916666666666,
             16.501666666666665
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "ASW-24(A)+WL",
+          "task_distance_km": 314.6,
+          "task_speed_kmh": 65.42,
+          "task_shape": "FAI trojúhelník",
+          "task_type": "rychlostní let se změnou tratě za letu"
         },
         {
           "date": "29.04.2025",
@@ -669,10 +1421,37 @@
             49.23695,
             16.555283333333332
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "ASW-24(A)+WL",
+          "task_distance_km": 351.6,
+          "task_speed_kmh": 64.16,
+          "task_shape": "polygon s 3OB",
+          "task_type": "rychlostní let se změnou tratě za letu"
         }
       ],
-      "sum_of_points": 2130
+      "sum_of_points": 2130,
+      "best_lkcm_flights_by_category": {
+        "club": {
+          "date": "20.08.2025",
+          "points": 658,
+          "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=189322",
+          "start_coordinates": [
+            49.308883333333334,
+            16.612216666666665
+          ],
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "ASW-24(A)+WL",
+          "task_distance_km": 403.4,
+          "task_speed_kmh": 81.9,
+          "task_shape": "polygon s 3OB",
+          "task_type": "rychlostní let podle deklarace ⇴",
+          "pilot": "Roman Pavlík",
+          "pilot_year_of_birth": "1971",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=2662&sez_rok=2025"
+        }
+      }
     },
     {
       "name": "Aleš Nestrojil",
@@ -687,7 +1466,16 @@
             49.23695,
             16.555283333333332
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "ASW-15",
+          "task_distance_km": 567.1,
+          "task_speed_kmh": 85.56,
+          "task_shape": "trojúhelník",
+          "task_type": "rychlostní let se změnou tratě za letu",
+          "pilot": "Aleš Nestrojil",
+          "pilot_year_of_birth": "1980",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=1983&sez_rok=2025"
         },
         {
           "date": "24.05.2025",
@@ -697,7 +1485,13 @@
             49.23773333333333,
             16.577366666666666
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "ASW-15",
+          "task_distance_km": 407.2,
+          "task_speed_kmh": 63.82,
+          "task_shape": "polygon s 5OB",
+          "task_type": "není možné podle pravidel bodovat"
         },
         {
           "date": "05.07.2025",
@@ -707,7 +1501,13 @@
             49.263666666666666,
             16.538116666666667
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "ASW-15",
+          "task_distance_km": 360.1,
+          "task_speed_kmh": 54.86,
+          "task_shape": "polygon s 5OB",
+          "task_type": "není možné podle pravidel bodovat"
         },
         {
           "date": "02.08.2025",
@@ -717,10 +1517,37 @@
             49.28211666666667,
             16.499
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "ASW-15",
+          "task_distance_km": 183.8,
+          "task_speed_kmh": 45.12,
+          "task_shape": "polygon s 5OB",
+          "task_type": "není možné podle pravidel bodovat"
         }
       ],
-      "sum_of_points": 2095
+      "sum_of_points": 2095,
+      "best_lkcm_flights_by_category": {
+        "club": {
+          "date": "15.08.2025",
+          "points": 965,
+          "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=188713",
+          "start_coordinates": [
+            49.23695,
+            16.555283333333332
+          ],
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "ASW-15",
+          "task_distance_km": 567.1,
+          "task_speed_kmh": 85.56,
+          "task_shape": "trojúhelník",
+          "task_type": "rychlostní let se změnou tratě za letu",
+          "pilot": "Aleš Nestrojil",
+          "pilot_year_of_birth": "1980",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=1983&sez_rok=2025"
+        }
+      }
     },
     {
       "name": "Stanislav Doskočil",
@@ -735,7 +1562,16 @@
             49.305166666666665,
             16.57605
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "Std. Cirrus",
+          "task_distance_km": 373.5,
+          "task_speed_kmh": 87.73,
+          "task_shape": "trojúhelník",
+          "task_type": "rychlostní let podle deklarace ⇴",
+          "pilot": "Stanislav Doskočil",
+          "pilot_year_of_birth": "1978",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=2618&sez_rok=2025"
         },
         {
           "date": "13.05.2025",
@@ -745,7 +1581,13 @@
             49.336666666666666,
             16.553616666666667
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "Std. Cirrus",
+          "task_distance_km": 368.0,
+          "task_speed_kmh": 84.45,
+          "task_shape": "polygon s 5OB",
+          "task_type": "rychlostní let se změnou tratě za letu"
         },
         {
           "date": "06.08.2025",
@@ -755,7 +1597,13 @@
             49.305166666666665,
             16.57605
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "Std. Cirrus",
+          "task_distance_km": 335.1,
+          "task_speed_kmh": 65.16,
+          "task_shape": "2OB",
+          "task_type": "volný let na vzdálenost"
         },
         {
           "date": "20.08.2025",
@@ -765,10 +1613,37 @@
             49.308883333333334,
             16.612216666666665
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "Std. Cirrus",
+          "task_distance_km": 323.6,
+          "task_speed_kmh": 95.57,
+          "task_shape": "2OB",
+          "task_type": "volný let na vzdálenost"
         }
       ],
-      "sum_of_points": 2090
+      "sum_of_points": 2090,
+      "best_lkcm_flights_by_category": {
+        "club": {
+          "date": "15.08.2025",
+          "points": 772,
+          "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=188718",
+          "start_coordinates": [
+            49.305166666666665,
+            16.57605
+          ],
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "Std. Cirrus",
+          "task_distance_km": 373.5,
+          "task_speed_kmh": 87.73,
+          "task_shape": "trojúhelník",
+          "task_type": "rychlostní let podle deklarace ⇴",
+          "pilot": "Stanislav Doskočil",
+          "pilot_year_of_birth": "1978",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=2618&sez_rok=2025"
+        }
+      }
     },
     {
       "name": "Oldřich Hlaváček",
@@ -783,7 +1658,16 @@
             49.2375,
             16.558333333333334
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "ASW-15B",
+          "task_distance_km": 323.7,
+          "task_speed_kmh": 78.85,
+          "task_shape": "trojúhelník",
+          "task_type": "rychlostní let podle deklarace ⇴",
+          "pilot": "Oldřich Hlaváček",
+          "pilot_year_of_birth": "1973",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=151&sez_rok=2025"
         },
         {
           "date": "11.05.2025",
@@ -793,7 +1677,16 @@
             49.2375,
             16.558333333333334
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "classic",
+          "glider_name": "VT-116 Orlik II",
+          "task_distance_km": 218.1,
+          "task_speed_kmh": 60.62,
+          "task_shape": "FAI trojúhelník",
+          "task_type": "rychlostní let podle deklarace ⇴",
+          "pilot": "Oldřich Hlaváček",
+          "pilot_year_of_birth": "1973",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=151&sez_rok=2025"
         },
         {
           "date": "20.07.2025",
@@ -803,7 +1696,13 @@
             49.29638333333333,
             16.52555
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "Discus CS",
+          "task_distance_km": 301.0,
+          "task_speed_kmh": 72.59,
+          "task_shape": "trojúhelník",
+          "task_type": "rychlostní let se změnou tratě za letu"
         },
         {
           "date": "10.05.2025",
@@ -813,10 +1712,56 @@
             49.2375,
             16.558333333333334
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "Discus CS",
+          "task_distance_km": 327.0,
+          "task_speed_kmh": 74.9,
+          "task_shape": "polygon s 5OB",
+          "task_type": "rychlostní let se změnou tratě za letu"
         }
       ],
-      "sum_of_points": 2077
+      "sum_of_points": 2077,
+      "best_lkcm_flights_by_category": {
+        "club": {
+          "date": "01.05.2025",
+          "points": 656,
+          "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=182500",
+          "start_coordinates": [
+            49.2375,
+            16.558333333333334
+          ],
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "ASW-15B",
+          "task_distance_km": 323.7,
+          "task_speed_kmh": 78.85,
+          "task_shape": "trojúhelník",
+          "task_type": "rychlostní let podle deklarace ⇴",
+          "pilot": "Oldřich Hlaváček",
+          "pilot_year_of_birth": "1973",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=151&sez_rok=2025"
+        },
+        "classic": {
+          "date": "11.05.2025",
+          "points": 580,
+          "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=183714",
+          "start_coordinates": [
+            49.2375,
+            16.558333333333334
+          ],
+          "lkcm_start": true,
+          "category": "classic",
+          "glider_name": "VT-116 Orlik II",
+          "task_distance_km": 218.1,
+          "task_speed_kmh": 60.62,
+          "task_shape": "FAI trojúhelník",
+          "task_type": "rychlostní let podle deklarace ⇴",
+          "pilot": "Oldřich Hlaváček",
+          "pilot_year_of_birth": "1973",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=151&sez_rok=2025"
+        }
+      }
     },
     {
       "name": "Tomáš Ryšavý",
@@ -831,7 +1776,16 @@
             49.24028333333333,
             16.559716666666667
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "open",
+          "glider_name": "ASG-32 /EL/Mi 800kg",
+          "task_distance_km": 312.3,
+          "task_speed_kmh": 111.3,
+          "task_shape": "trojúhelník",
+          "task_type": "rychlostní let podle deklarace ⇴",
+          "pilot": "Tomáš Ryšavý",
+          "pilot_year_of_birth": "1959",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=631&sez_rok=2025"
         },
         {
           "date": "01.05.2025",
@@ -841,7 +1795,13 @@
             49.24028333333333,
             16.559716666666667
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "open",
+          "glider_name": "ASG-32 /EL/Mi 800kg",
+          "task_distance_km": 315.9,
+          "task_speed_kmh": 97.92,
+          "task_shape": "polygon s 3OB",
+          "task_type": "rychlostní let podle deklarace ⇴"
         },
         {
           "date": "24.08.2025",
@@ -851,7 +1811,13 @@
             49.24028333333333,
             16.559716666666667
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "open",
+          "glider_name": "ASG-32 /EL/Mi 800kg",
+          "task_distance_km": 399.8,
+          "task_speed_kmh": 98.37,
+          "task_shape": "polygon s 5OB",
+          "task_type": "rychlostní let se změnou tratě za letu"
         },
         {
           "date": "30.04.2025",
@@ -861,10 +1827,37 @@
             49.24028333333333,
             16.559716666666667
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "open",
+          "glider_name": "ASG-32 /EL/Mi 800kg",
+          "task_distance_km": 217.2,
+          "task_speed_kmh": 84.71,
+          "task_shape": "FAI trojúhelník",
+          "task_type": "rychlostní let podle deklarace ⇴"
         }
       ],
-      "sum_of_points": 2064
+      "sum_of_points": 2064,
+      "best_lkcm_flights_by_category": {
+        "open": {
+          "date": "20.08.2025",
+          "points": 619,
+          "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=189287",
+          "start_coordinates": [
+            49.24028333333333,
+            16.559716666666667
+          ],
+          "lkcm_start": true,
+          "category": "open",
+          "glider_name": "ASG-32 /EL/Mi 800kg",
+          "task_distance_km": 312.3,
+          "task_speed_kmh": 111.3,
+          "task_shape": "trojúhelník",
+          "task_type": "rychlostní let podle deklarace ⇴",
+          "pilot": "Tomáš Ryšavý",
+          "pilot_year_of_birth": "1959",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=631&sez_rok=2025"
+        }
+      }
     },
     {
       "name": "Štěpán Fiľakovský",
@@ -879,7 +1872,16 @@
             49.266466666666666,
             16.565666666666665
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "LS-1f",
+          "task_distance_km": 548.6,
+          "task_speed_kmh": 89.75,
+          "task_shape": "2OB",
+          "task_type": "volný let na vzdálenost",
+          "pilot": "Štěpán Fiľakovský",
+          "pilot_year_of_birth": "2005",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=4008&sez_rok=2025"
         },
         {
           "date": "01.05.2025",
@@ -889,7 +1891,13 @@
             49.2845,
             16.571133333333332
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "LS-1f",
+          "task_distance_km": 373.5,
+          "task_speed_kmh": 91.1,
+          "task_shape": "2OB",
+          "task_type": "volný let na vzdálenost"
         },
         {
           "date": "09.04.2025",
@@ -899,7 +1907,13 @@
             49.28195,
             16.5509
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "LS-1f",
+          "task_distance_km": 185.8,
+          "task_speed_kmh": 94.09,
+          "task_shape": "trojúhelník",
+          "task_type": "rychlostní let se změnou tratě za letu"
         },
         {
           "date": "06.07.2025",
@@ -909,10 +1923,56 @@
             49.25255,
             16.5308
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "LS-1f",
+          "task_distance_km": 194.9,
+          "task_speed_kmh": 85.78,
+          "task_shape": "polygon s 3OB",
+          "task_type": "rychlostní let se změnou tratě za letu"
         }
       ],
-      "sum_of_points": 1857
+      "sum_of_points": 1857,
+      "best_lkcm_flights_by_category": {
+        "club": {
+          "date": "09.05.2025",
+          "points": 652,
+          "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=183272",
+          "start_coordinates": [
+            49.266466666666666,
+            16.565666666666665
+          ],
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "LS-1f",
+          "task_distance_km": 548.6,
+          "task_speed_kmh": 89.75,
+          "task_shape": "2OB",
+          "task_type": "volný let na vzdálenost",
+          "pilot": "Štěpán Fiľakovský",
+          "pilot_year_of_birth": "2005",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=4008&sez_rok=2025"
+        },
+        "open": {
+          "date": "11.09.2025",
+          "points": 206,
+          "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=190091",
+          "start_coordinates": [
+            49.26153333333333,
+            16.556216666666668
+          ],
+          "lkcm_start": true,
+          "category": "open",
+          "glider_name": "ASW-20 C(L) /15m",
+          "task_distance_km": 191.9,
+          "task_speed_kmh": 58.66,
+          "task_shape": "polygon s 5OB",
+          "task_type": "není možné podle pravidel bodovat",
+          "pilot": "Štěpán Fiľakovský",
+          "pilot_year_of_birth": "2005",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=4008&sez_rok=2025"
+        }
+      }
     },
     {
       "name": "Peter Bučko",
@@ -927,7 +1987,16 @@
             49.23695,
             16.555283333333332
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "Std. Cirrus",
+          "task_distance_km": 352.9,
+          "task_speed_kmh": 65.76,
+          "task_shape": "FAI trojúhelník",
+          "task_type": "rychlostní let podle deklarace ⇴",
+          "pilot": "Peter Bučko",
+          "pilot_year_of_birth": "1988",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=4248&sez_rok=2025"
         },
         {
           "date": "30.04.2025",
@@ -937,7 +2006,13 @@
             49.2537,
             16.5534
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "Std. Cirrus",
+          "task_distance_km": 317.7,
+          "task_speed_kmh": 63.04,
+          "task_shape": "polygon s 3OB",
+          "task_type": "rychlostní let podle deklarace ⇴"
         },
         {
           "date": "12.05.2025",
@@ -947,10 +2022,37 @@
             49.23695,
             16.555283333333332
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "Std. Cirrus",
+          "task_distance_km": 254.3,
+          "task_speed_kmh": 61.04,
+          "task_shape": "návratová",
+          "task_type": "rychlostní let se změnou tratě za letu"
         }
       ],
-      "sum_of_points": 1561
+      "sum_of_points": 1561,
+      "best_lkcm_flights_by_category": {
+        "club": {
+          "date": "01.05.2025",
+          "points": 675,
+          "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=182570",
+          "start_coordinates": [
+            49.23695,
+            16.555283333333332
+          ],
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "Std. Cirrus",
+          "task_distance_km": 352.9,
+          "task_speed_kmh": 65.76,
+          "task_shape": "FAI trojúhelník",
+          "task_type": "rychlostní let podle deklarace ⇴",
+          "pilot": "Peter Bučko",
+          "pilot_year_of_birth": "1988",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=4248&sez_rok=2025"
+        }
+      }
     },
     {
       "name": "Vojtěch Pávek",
@@ -965,7 +2067,16 @@
             49.2748,
             16.5412
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "Std. Cirrus",
+          "task_distance_km": 354.5,
+          "task_speed_kmh": 89.84,
+          "task_shape": "polygon s 3OB",
+          "task_type": "rychlostní let podle deklarace ⇴",
+          "pilot": "Vojtěch Pávek",
+          "pilot_year_of_birth": "2000",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=4031&sez_rok=2025"
         },
         {
           "date": "05.07.2025",
@@ -975,7 +2086,13 @@
             49.31315,
             16.576816666666666
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "Std. Cirrus",
+          "task_distance_km": 303.9,
+          "task_speed_kmh": 74.31,
+          "task_shape": "polygon s 5OB",
+          "task_type": "rychlostní let podle deklarace ⇴"
         },
         {
           "date": "01.05.2025",
@@ -985,10 +2102,37 @@
             49.23695,
             16.555283333333332
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "Std. Cirrus",
+          "task_distance_km": 280.8,
+          "task_speed_kmh": 67.28,
+          "task_shape": "2OB",
+          "task_type": "volný let na vzdálenost"
         }
       ],
-      "sum_of_points": 1516
+      "sum_of_points": 1516,
+      "best_lkcm_flights_by_category": {
+        "club": {
+          "date": "20.08.2025",
+          "points": 687,
+          "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=189223",
+          "start_coordinates": [
+            49.2748,
+            16.5412
+          ],
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "Std. Cirrus",
+          "task_distance_km": 354.5,
+          "task_speed_kmh": 89.84,
+          "task_shape": "polygon s 3OB",
+          "task_type": "rychlostní let podle deklarace ⇴",
+          "pilot": "Vojtěch Pávek",
+          "pilot_year_of_birth": "2000",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=4031&sez_rok=2025"
+        }
+      }
     },
     {
       "name": "David Jelínek",
@@ -1003,7 +2147,16 @@
             49.2369,
             16.5553
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "Pik-20B",
+          "task_distance_km": 352.9,
+          "task_speed_kmh": 63.77,
+          "task_shape": "FAI trojúhelník",
+          "task_type": "rychlostní let podle deklarace ⇴",
+          "pilot": "David Jelínek",
+          "pilot_year_of_birth": "1979",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=2324&sez_rok=2025"
         },
         {
           "date": "30.04.2025",
@@ -1013,7 +2166,13 @@
             49.336666666666666,
             16.553616666666667
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "Pik-20B",
+          "task_distance_km": 315.9,
+          "task_speed_kmh": 62.56,
+          "task_shape": "polygon s 3OB",
+          "task_type": "rychlostní let podle deklarace ⇴"
         },
         {
           "date": "29.04.2025",
@@ -1023,10 +2182,37 @@
             49.35138333333333,
             16.648333333333333
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "Pik-20B",
+          "task_distance_km": 218.1,
+          "task_speed_kmh": 60.76,
+          "task_shape": "polygon s 3OB",
+          "task_type": "rychlostní let se změnou tratě za letu"
         }
       ],
-      "sum_of_points": 1413
+      "sum_of_points": 1413,
+      "best_lkcm_flights_by_category": {
+        "club": {
+          "date": "01.05.2025",
+          "points": 638,
+          "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=182504",
+          "start_coordinates": [
+            49.2369,
+            16.5553
+          ],
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "Pik-20B",
+          "task_distance_km": 352.9,
+          "task_speed_kmh": 63.77,
+          "task_shape": "FAI trojúhelník",
+          "task_type": "rychlostní let podle deklarace ⇴",
+          "pilot": "David Jelínek",
+          "pilot_year_of_birth": "1979",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=2324&sez_rok=2025"
+        }
+      }
     },
     {
       "name": "Petr Jedlička",
@@ -1041,7 +2227,16 @@
             49.2537,
             16.553383333333333
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "open",
+          "glider_name": "Ventus c /17,6m",
+          "task_distance_km": 467.7,
+          "task_speed_kmh": 72.51,
+          "task_shape": "FAI trojúhelník",
+          "task_type": "rychlostní let se změnou tratě za letu",
+          "pilot": "Petr Jedlička",
+          "pilot_year_of_birth": "1987",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=2120&sez_rok=2025"
         },
         {
           "date": "21.06.2025",
@@ -1051,7 +2246,16 @@
             49.33583333333333,
             16.5525
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "classic",
+          "glider_name": "VT-116 Orlik II",
+          "task_distance_km": 191.0,
+          "task_speed_kmh": 56.16,
+          "task_shape": "polygon s 3OB",
+          "task_type": "rychlostní let podle deklarace ⇴",
+          "pilot": "Petr Jedlička",
+          "pilot_year_of_birth": "1987",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=2120&sez_rok=2025"
         },
         {
           "date": "12.04.2025",
@@ -1061,10 +2265,56 @@
             49.24856666666667,
             16.534
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "open",
+          "glider_name": "Ventus c /17,6m",
+          "task_distance_km": 310.4,
+          "task_speed_kmh": 68.09,
+          "task_shape": "polygon s 5OB",
+          "task_type": "není možné podle pravidel bodovat"
         }
       ],
-      "sum_of_points": 1354
+      "sum_of_points": 1354,
+      "best_lkcm_flights_by_category": {
+        "open": {
+          "date": "25.08.2025",
+          "points": 619,
+          "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=189765",
+          "start_coordinates": [
+            49.2537,
+            16.553383333333333
+          ],
+          "lkcm_start": true,
+          "category": "open",
+          "glider_name": "Ventus c /17,6m",
+          "task_distance_km": 467.7,
+          "task_speed_kmh": 72.51,
+          "task_shape": "FAI trojúhelník",
+          "task_type": "rychlostní let se změnou tratě za letu",
+          "pilot": "Petr Jedlička",
+          "pilot_year_of_birth": "1987",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=2120&sez_rok=2025"
+        },
+        "classic": {
+          "date": "21.06.2025",
+          "points": 418,
+          "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=185478",
+          "start_coordinates": [
+            49.33583333333333,
+            16.5525
+          ],
+          "lkcm_start": true,
+          "category": "classic",
+          "glider_name": "VT-116 Orlik II",
+          "task_distance_km": 191.0,
+          "task_speed_kmh": 56.16,
+          "task_shape": "polygon s 3OB",
+          "task_type": "rychlostní let podle deklarace ⇴",
+          "pilot": "Petr Jedlička",
+          "pilot_year_of_birth": "1987",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=2120&sez_rok=2025"
+        }
+      }
     },
     {
       "name": "Vilém Hron",
@@ -1079,7 +2329,16 @@
             49.269533333333335,
             16.56598333333333
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "G-104 Speed Astir II",
+          "task_distance_km": 367.3,
+          "task_speed_kmh": 81.82,
+          "task_shape": "polygon s 5OB",
+          "task_type": "není možné podle pravidel bodovat",
+          "pilot": "Vilém Hron",
+          "pilot_year_of_birth": "1998",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=4475&sez_rok=2025"
         },
         {
           "date": "15.08.2025",
@@ -1089,7 +2348,13 @@
             49.299166666666665,
             16.575216666666666
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "G-104 Speed Astir II",
+          "task_distance_km": 323.2,
+          "task_speed_kmh": 75.68,
+          "task_shape": "polygon s 5OB",
+          "task_type": "není možné podle pravidel bodovat"
         },
         {
           "date": "09.05.2025",
@@ -1099,10 +2364,37 @@
             49.2624,
             16.551
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "G-104 Speed Astir II",
+          "task_distance_km": 189.8,
+          "task_speed_kmh": 46.89,
+          "task_shape": "2OB",
+          "task_type": "volný let na vzdálenost"
         }
       ],
-      "sum_of_points": 1130
+      "sum_of_points": 1130,
+      "best_lkcm_flights_by_category": {
+        "club": {
+          "date": "20.08.2025",
+          "points": 491,
+          "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=189344",
+          "start_coordinates": [
+            49.269533333333335,
+            16.56598333333333
+          ],
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "G-104 Speed Astir II",
+          "task_distance_km": 367.3,
+          "task_speed_kmh": 81.82,
+          "task_shape": "polygon s 5OB",
+          "task_type": "není možné podle pravidel bodovat",
+          "pilot": "Vilém Hron",
+          "pilot_year_of_birth": "1998",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=4475&sez_rok=2025"
+        }
+      }
     },
     {
       "name": "Barbora Kubíčková",
@@ -1117,7 +2409,16 @@
             49.2375,
             16.558333333333334
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "open",
+          "glider_name": "LAK 17A(T) /18m",
+          "task_distance_km": 348.3,
+          "task_speed_kmh": 96.08,
+          "task_shape": "trojúhelník s odletem z ramene",
+          "task_type": "rychlostní let se změnou tratě za letu",
+          "pilot": "Barbora Kubíčková",
+          "pilot_year_of_birth": "1993",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=2953&sez_rok=2025"
         },
         {
           "date": "25.08.2025",
@@ -1127,10 +2428,37 @@
             49.336666666666666,
             16.553616666666667
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "open",
+          "glider_name": "LAK 17A(T) /18m",
+          "task_distance_km": 310.7,
+          "task_speed_kmh": 82.06,
+          "task_shape": "trojúhelník",
+          "task_type": "rychlostní let podle deklarace ⇴"
         }
       ],
-      "sum_of_points": 1024
+      "sum_of_points": 1024,
+      "best_lkcm_flights_by_category": {
+        "open": {
+          "date": "24.08.2025",
+          "points": 520,
+          "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=189766",
+          "start_coordinates": [
+            49.2375,
+            16.558333333333334
+          ],
+          "lkcm_start": true,
+          "category": "open",
+          "glider_name": "LAK 17A(T) /18m",
+          "task_distance_km": 348.3,
+          "task_speed_kmh": 96.08,
+          "task_shape": "trojúhelník s odletem z ramene",
+          "task_type": "rychlostní let se změnou tratě za letu",
+          "pilot": "Barbora Kubíčková",
+          "pilot_year_of_birth": "1993",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=2953&sez_rok=2025"
+        }
+      }
     },
     {
       "name": "Jiří Materna",
@@ -1145,7 +2473,16 @@
             49.305166666666665,
             16.57605
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "Std. Cirrus",
+          "task_distance_km": 261.0,
+          "task_speed_kmh": 64.75,
+          "task_shape": "trojúhelník",
+          "task_type": "rychlostní let se změnou tratě za letu",
+          "pilot": "Jiří Materna",
+          "pilot_year_of_birth": "1984",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=3131&sez_rok=2025"
         },
         {
           "date": "13.05.2025",
@@ -1155,7 +2492,13 @@
             49.33583333333333,
             16.5525
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "Std. Cirrus",
+          "task_distance_km": 241.3,
+          "task_speed_kmh": 60.2,
+          "task_shape": "polygon s 3OB",
+          "task_type": "rychlostní let se změnou tratě za letu"
         },
         {
           "date": "06.08.2025",
@@ -1165,10 +2508,37 @@
             49.305166666666665,
             16.57605
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "Std. Cirrus",
+          "task_distance_km": 181.1,
+          "task_speed_kmh": 49.92,
+          "task_shape": "polygon s 5OB",
+          "task_type": "rychlostní let se změnou tratě za letu"
         }
       ],
-      "sum_of_points": 930
+      "sum_of_points": 930,
+      "best_lkcm_flights_by_category": {
+        "club": {
+          "date": "20.08.2025",
+          "points": 404,
+          "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=189229",
+          "start_coordinates": [
+            49.305166666666665,
+            16.57605
+          ],
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "Std. Cirrus",
+          "task_distance_km": 261.0,
+          "task_speed_kmh": 64.75,
+          "task_shape": "trojúhelník",
+          "task_type": "rychlostní let se změnou tratě za letu",
+          "pilot": "Jiří Materna",
+          "pilot_year_of_birth": "1984",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=3131&sez_rok=2025"
+        }
+      }
     },
     {
       "name": "Ivan Poláček",
@@ -1183,7 +2553,16 @@
             49.259033333333335,
             16.5527
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "Std. Cirrus",
+          "task_distance_km": 239.5,
+          "task_speed_kmh": 66.23,
+          "task_shape": "polygon s 5OB",
+          "task_type": "není možné podle pravidel bodovat",
+          "pilot": "Ivan Poláček",
+          "pilot_year_of_birth": "1948",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=130&sez_rok=2025"
         },
         {
           "date": "15.08.2025",
@@ -1193,7 +2572,13 @@
             49.236666666666665,
             16.555283333333332
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "Std. Cirrus",
+          "task_distance_km": 198.6,
+          "task_speed_kmh": 62.48,
+          "task_shape": "4OB",
+          "task_type": "rychlostní let podle deklarace ⇴"
         },
         {
           "date": "25.08.2025",
@@ -1203,10 +2588,37 @@
             49.236666666666665,
             16.555283333333332
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "Std. Cirrus",
+          "task_distance_km": 228.0,
+          "task_speed_kmh": 53.21,
+          "task_shape": "polygon s 3OB",
+          "task_type": "rychlostní let se změnou tratě za letu"
         }
       ],
-      "sum_of_points": 909
+      "sum_of_points": 909,
+      "best_lkcm_flights_by_category": {
+        "club": {
+          "date": "20.08.2025",
+          "points": 319,
+          "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=189338",
+          "start_coordinates": [
+            49.259033333333335,
+            16.5527
+          ],
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "Std. Cirrus",
+          "task_distance_km": 239.5,
+          "task_speed_kmh": 66.23,
+          "task_shape": "polygon s 5OB",
+          "task_type": "není možné podle pravidel bodovat",
+          "pilot": "Ivan Poláček",
+          "pilot_year_of_birth": "1948",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=130&sez_rok=2025"
+        }
+      }
     },
     {
       "name": "Peter Palatinus",
@@ -1221,7 +2633,16 @@
             49.28908333333333,
             16.597016666666665
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "open",
+          "glider_name": "Duo Discus X(T)",
+          "task_distance_km": 492.9,
+          "task_speed_kmh": 82.41,
+          "task_shape": "polygon s 5OB",
+          "task_type": "není možné podle pravidel bodovat",
+          "pilot": "Peter Palatinus",
+          "pilot_year_of_birth": "1987",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=3093&sez_rok=2025"
         },
         {
           "date": "13.07.2025",
@@ -1231,10 +2652,59 @@
             49.236783333333335,
             16.555283333333332
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "Std. Cirrus",
+          "task_distance_km": 164.5,
+          "task_speed_kmh": 64.98,
+          "task_shape": "návratová",
+          "task_type": "rychlostní let se změnou tratě za letu",
+          "pilot": "Peter Palatinus",
+          "pilot_year_of_birth": "1987",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=3093&sez_rok=2025"
         }
       ],
-      "sum_of_points": 847
+      "sum_of_points": 847,
+      "best_lkcm_flights_by_category": {
+        "open": {
+          "date": "24.08.2025",
+          "points": 568,
+          "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=189777",
+          "start_coordinates": [
+            49.28908333333333,
+            16.597016666666665
+          ],
+          "lkcm_start": true,
+          "category": "open",
+          "glider_name": "Duo Discus X(T)",
+          "task_distance_km": 492.9,
+          "task_speed_kmh": 82.41,
+          "task_shape": "polygon s 5OB",
+          "task_type": "není možné podle pravidel bodovat",
+          "pilot": "Peter Palatinus",
+          "pilot_year_of_birth": "1987",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=3093&sez_rok=2025"
+        },
+        "club": {
+          "date": "13.07.2025",
+          "points": 279,
+          "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=186555",
+          "start_coordinates": [
+            49.236783333333335,
+            16.555283333333332
+          ],
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "Std. Cirrus",
+          "task_distance_km": 164.5,
+          "task_speed_kmh": 64.98,
+          "task_shape": "návratová",
+          "task_type": "rychlostní let se změnou tratě za letu",
+          "pilot": "Peter Palatinus",
+          "pilot_year_of_birth": "1987",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=3093&sez_rok=2025"
+        }
+      }
     },
     {
       "name": "Jan Šponer",
@@ -1249,10 +2719,40 @@
             49.2425,
             16.55305
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "Std. Cirrus",
+          "task_distance_km": 407.3,
+          "task_speed_kmh": 87.06,
+          "task_shape": "polygon s 3OB",
+          "task_type": "rychlostní let podle deklarace ⇴",
+          "pilot": "Jan Šponer",
+          "pilot_year_of_birth": "1988",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=1147&sez_rok=2025"
         }
       ],
-      "sum_of_points": 757
+      "sum_of_points": 757,
+      "best_lkcm_flights_by_category": {
+        "club": {
+          "date": "24.08.2025",
+          "points": 757,
+          "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=189508",
+          "start_coordinates": [
+            49.2425,
+            16.55305
+          ],
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "Std. Cirrus",
+          "task_distance_km": 407.3,
+          "task_speed_kmh": 87.06,
+          "task_shape": "polygon s 3OB",
+          "task_type": "rychlostní let podle deklarace ⇴",
+          "pilot": "Jan Šponer",
+          "pilot_year_of_birth": "1988",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=1147&sez_rok=2025"
+        }
+      }
     },
     {
       "name": "Matúš Surovčák",
@@ -1267,7 +2767,16 @@
             49.27923333333333,
             16.533283333333333
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "G-102 Astir cs",
+          "task_distance_km": 224.1,
+          "task_speed_kmh": 67.82,
+          "task_shape": "polygon s 3OB",
+          "task_type": "rychlostní let podle deklarace ⇴",
+          "pilot": "Matúš Surovčák",
+          "pilot_year_of_birth": "1999",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=4128&sez_rok=2025"
         },
         {
           "date": "30.04.2025",
@@ -1277,10 +2786,37 @@
             49.2537,
             16.5534
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "G-102 Astir cs",
+          "task_distance_km": 171.6,
+          "task_speed_kmh": 54.76,
+          "task_shape": "návratová",
+          "task_type": "rychlostní let podle deklarace ⇴"
         }
       ],
-      "sum_of_points": 736
+      "sum_of_points": 736,
+      "best_lkcm_flights_by_category": {
+        "club": {
+          "date": "20.08.2025",
+          "points": 423,
+          "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=189394",
+          "start_coordinates": [
+            49.27923333333333,
+            16.533283333333333
+          ],
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "G-102 Astir cs",
+          "task_distance_km": 224.1,
+          "task_speed_kmh": 67.82,
+          "task_shape": "polygon s 3OB",
+          "task_type": "rychlostní let podle deklarace ⇴",
+          "pilot": "Matúš Surovčák",
+          "pilot_year_of_birth": "1999",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=4128&sez_rok=2025"
+        }
+      }
     },
     {
       "name": "Jaroslav Florian",
@@ -1295,7 +2831,16 @@
             49.336666666666666,
             16.553616666666667
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "Std. Cirrus",
+          "task_distance_km": 211.0,
+          "task_speed_kmh": 84.6,
+          "task_shape": "polygon s 3OB",
+          "task_type": "rychlostní let podle deklarace ⇴",
+          "pilot": "Jaroslav Florian",
+          "pilot_year_of_birth": "1977",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=1987&sez_rok=2025"
         },
         {
           "date": "05.07.2025",
@@ -1305,10 +2850,37 @@
             49.236783333333335,
             16.555283333333332
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "Std. Cirrus",
+          "task_distance_km": 174.9,
+          "task_speed_kmh": 42.06,
+          "task_shape": "polygon s 3OB",
+          "task_type": "volný let na vzdálenost"
         }
       ],
-      "sum_of_points": 637
+      "sum_of_points": 637,
+      "best_lkcm_flights_by_category": {
+        "club": {
+          "date": "13.05.2025",
+          "points": 445,
+          "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=186401",
+          "start_coordinates": [
+            49.336666666666666,
+            16.553616666666667
+          ],
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "Std. Cirrus",
+          "task_distance_km": 211.0,
+          "task_speed_kmh": 84.6,
+          "task_shape": "polygon s 3OB",
+          "task_type": "rychlostní let podle deklarace ⇴",
+          "pilot": "Jaroslav Florian",
+          "pilot_year_of_birth": "1977",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=1987&sez_rok=2025"
+        }
+      }
     },
     {
       "name": "Michal Ondráček",
@@ -1323,10 +2895,40 @@
             49.35166666666667,
             16.648616666666666
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "classic",
+          "glider_name": "Ka 6E",
+          "task_distance_km": 215.7,
+          "task_speed_kmh": 58.87,
+          "task_shape": "trojúhelník",
+          "task_type": "rychlostní let podle deklarace ⇴",
+          "pilot": "Michal Ondráček",
+          "pilot_year_of_birth": "1966",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=2542&sez_rok=2025"
         }
       ],
-      "sum_of_points": 537
+      "sum_of_points": 537,
+      "best_lkcm_flights_by_category": {
+        "classic": {
+          "date": "15.08.2025",
+          "points": 537,
+          "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=188801",
+          "start_coordinates": [
+            49.35166666666667,
+            16.648616666666666
+          ],
+          "lkcm_start": true,
+          "category": "classic",
+          "glider_name": "Ka 6E",
+          "task_distance_km": 215.7,
+          "task_speed_kmh": 58.87,
+          "task_shape": "trojúhelník",
+          "task_type": "rychlostní let podle deklarace ⇴",
+          "pilot": "Michal Ondráček",
+          "pilot_year_of_birth": "1966",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=2542&sez_rok=2025"
+        }
+      }
     },
     {
       "name": "Filip Fousek",
@@ -1341,10 +2943,40 @@
             49.29638333333333,
             16.52555
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "Std. Cirrus",
+          "task_distance_km": 182.5,
+          "task_speed_kmh": 76.25,
+          "task_shape": "FAI trojúhelník",
+          "task_type": "rychlostní let se změnou tratě za letu",
+          "pilot": "Filip Fousek",
+          "pilot_year_of_birth": "1981",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=3809&sez_rok=2025"
         }
       ],
-      "sum_of_points": 373
+      "sum_of_points": 373,
+      "best_lkcm_flights_by_category": {
+        "club": {
+          "date": "24.08.2025",
+          "points": 373,
+          "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=189771",
+          "start_coordinates": [
+            49.29638333333333,
+            16.52555
+          ],
+          "lkcm_start": true,
+          "category": "club",
+          "glider_name": "Std. Cirrus",
+          "task_distance_km": 182.5,
+          "task_speed_kmh": 76.25,
+          "task_shape": "FAI trojúhelník",
+          "task_type": "rychlostní let se změnou tratě za letu",
+          "pilot": "Filip Fousek",
+          "pilot_year_of_birth": "1981",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=3809&sez_rok=2025"
+        }
+      }
     },
     {
       "name": "Petr Vězda",
@@ -1359,10 +2991,908 @@
             49.274116666666664,
             16.567516666666666
           ],
-          "lkcm_start": true
+          "lkcm_start": true,
+          "category": "classic",
+          "glider_name": "VT-116 Orlik II",
+          "task_distance_km": 106.7,
+          "task_speed_kmh": 35.86,
+          "task_shape": "polygon s 5OB",
+          "task_type": "není možné podle pravidel bodovat",
+          "pilot": "Petr Vězda",
+          "pilot_year_of_birth": "1974",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=2007&sez_rok=2025"
         }
       ],
-      "sum_of_points": 127
+      "sum_of_points": 127,
+      "best_lkcm_flights_by_category": {
+        "classic": {
+          "date": "21.06.2025",
+          "points": 127,
+          "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=185408",
+          "start_coordinates": [
+            49.274116666666664,
+            16.567516666666666
+          ],
+          "lkcm_start": true,
+          "category": "classic",
+          "glider_name": "VT-116 Orlik II",
+          "task_distance_km": 106.7,
+          "task_speed_kmh": 35.86,
+          "task_shape": "polygon s 5OB",
+          "task_type": "není možné podle pravidel bodovat",
+          "pilot": "Petr Vězda",
+          "pilot_year_of_birth": "1974",
+          "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=2007&sez_rok=2025"
+        }
+      }
     }
-  ]
+  ],
+  "typova_soutez_vysledky": {
+    "open": [
+      {
+        "date": "09.05.2025",
+        "points": 1543,
+        "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=183393",
+        "start_coordinates": [
+          49.236783333333335,
+          16.555283333333332
+        ],
+        "lkcm_start": true,
+        "category": "open",
+        "glider_name": "JS3 (RES/TJ) 18m",
+        "task_distance_km": 901.4,
+        "task_speed_kmh": 116.06,
+        "task_shape": "FAI trojúhelník",
+        "task_type": "rychlostní let podle deklarace ⇴",
+        "pilot": "Michal Poslužný",
+        "pilot_year_of_birth": "1968",
+        "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=48&sez_rok=2025"
+      },
+      {
+        "date": "20.08.2025",
+        "points": 1243,
+        "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=189267",
+        "start_coordinates": [
+          49.26785,
+          16.54295
+        ],
+        "lkcm_start": true,
+        "category": "open",
+        "glider_name": "LS-8-18 18m",
+        "task_distance_km": 701.3,
+        "task_speed_kmh": 118.78,
+        "task_shape": "trojúhelník",
+        "task_type": "rychlostní let podle deklarace ⇴",
+        "pilot": "Jan Šťastný",
+        "pilot_year_of_birth": "2003",
+        "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=3454&sez_rok=2025"
+      },
+      {
+        "date": "15.08.2025",
+        "points": 1059,
+        "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=188646",
+        "start_coordinates": [
+          49.2825,
+          16.564716666666666
+        ],
+        "lkcm_start": true,
+        "category": "open",
+        "glider_name": "Ventus c /17,6m",
+        "task_distance_km": 597.7,
+        "task_speed_kmh": 114.85,
+        "task_shape": "trojúhelník s odletem z ramene",
+        "task_type": "rychlostní let podle deklarace ⇴",
+        "pilot": "Michal Cupák",
+        "pilot_year_of_birth": "1991",
+        "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=2954&sez_rok=2025"
+      },
+      {
+        "date": "20.08.2025",
+        "points": 926,
+        "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=189251",
+        "start_coordinates": [
+          49.23695,
+          16.555
+        ],
+        "lkcm_start": true,
+        "category": "open",
+        "glider_name": "LAK 12",
+        "task_distance_km": 552.3,
+        "task_speed_kmh": 93.47,
+        "task_shape": "návratová",
+        "task_type": "rychlostní let podle deklarace ⇴",
+        "pilot": "Pavel Schoř",
+        "pilot_year_of_birth": "1985",
+        "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=429&sez_rok=2025"
+      },
+      {
+        "date": "09.05.2025",
+        "points": 789,
+        "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=183292",
+        "start_coordinates": [
+          49.240833333333335,
+          16.560833333333335
+        ],
+        "lkcm_start": true,
+        "category": "open",
+        "glider_name": "Ventus c /17,6m",
+        "task_distance_km": 509.6,
+        "task_speed_kmh": 83.64,
+        "task_shape": "trojúhelník",
+        "task_type": "rychlostní let podle deklarace ⇴",
+        "pilot": "Vít Prokop",
+        "pilot_year_of_birth": "1987",
+        "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=2690&sez_rok=2025"
+      },
+      {
+        "date": "01.05.2025",
+        "points": 696,
+        "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=182910",
+        "start_coordinates": [
+          49.2375,
+          16.558316666666666
+        ],
+        "lkcm_start": true,
+        "category": "open",
+        "glider_name": "Nimbus-2c",
+        "task_distance_km": 367.1,
+        "task_speed_kmh": 89.51,
+        "task_shape": "FAI trojúhelník",
+        "task_type": "rychlostní let podle deklarace ⇴",
+        "pilot": "Michal Šťastný",
+        "pilot_year_of_birth": "1970",
+        "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=265&sez_rok=2025"
+      },
+      {
+        "date": "20.08.2025",
+        "points": 619,
+        "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=189287",
+        "start_coordinates": [
+          49.24028333333333,
+          16.559716666666667
+        ],
+        "lkcm_start": true,
+        "category": "open",
+        "glider_name": "ASG-32 /EL/Mi 800kg",
+        "task_distance_km": 312.3,
+        "task_speed_kmh": 111.3,
+        "task_shape": "trojúhelník",
+        "task_type": "rychlostní let podle deklarace ⇴",
+        "pilot": "Tomáš Ryšavý",
+        "pilot_year_of_birth": "1959",
+        "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=631&sez_rok=2025"
+      },
+      {
+        "date": "25.08.2025",
+        "points": 619,
+        "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=189765",
+        "start_coordinates": [
+          49.2537,
+          16.553383333333333
+        ],
+        "lkcm_start": true,
+        "category": "open",
+        "glider_name": "Ventus c /17,6m",
+        "task_distance_km": 467.7,
+        "task_speed_kmh": 72.51,
+        "task_shape": "FAI trojúhelník",
+        "task_type": "rychlostní let se změnou tratě za letu",
+        "pilot": "Petr Jedlička",
+        "pilot_year_of_birth": "1987",
+        "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=2120&sez_rok=2025"
+      },
+      {
+        "date": "24.08.2025",
+        "points": 568,
+        "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=189777",
+        "start_coordinates": [
+          49.28908333333333,
+          16.597016666666665
+        ],
+        "lkcm_start": true,
+        "category": "open",
+        "glider_name": "Duo Discus X(T)",
+        "task_distance_km": 492.9,
+        "task_speed_kmh": 82.41,
+        "task_shape": "polygon s 5OB",
+        "task_type": "není možné podle pravidel bodovat",
+        "pilot": "Peter Palatinus",
+        "pilot_year_of_birth": "1987",
+        "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=3093&sez_rok=2025"
+      },
+      {
+        "date": "24.08.2025",
+        "points": 520,
+        "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=189766",
+        "start_coordinates": [
+          49.2375,
+          16.558333333333334
+        ],
+        "lkcm_start": true,
+        "category": "open",
+        "glider_name": "LAK 17A(T) /18m",
+        "task_distance_km": 348.3,
+        "task_speed_kmh": 96.08,
+        "task_shape": "trojúhelník s odletem z ramene",
+        "task_type": "rychlostní let se změnou tratě za letu",
+        "pilot": "Barbora Kubíčková",
+        "pilot_year_of_birth": "1993",
+        "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=2953&sez_rok=2025"
+      },
+      {
+        "date": "11.09.2025",
+        "points": 206,
+        "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=190091",
+        "start_coordinates": [
+          49.26153333333333,
+          16.556216666666668
+        ],
+        "lkcm_start": true,
+        "category": "open",
+        "glider_name": "ASW-20 C(L) /15m",
+        "task_distance_km": 191.9,
+        "task_speed_kmh": 58.66,
+        "task_shape": "polygon s 5OB",
+        "task_type": "není možné podle pravidel bodovat",
+        "pilot": "Štěpán Fiľakovský",
+        "pilot_year_of_birth": "2005",
+        "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=4008&sez_rok=2025"
+      }
+    ],
+    "club": [
+      {
+        "date": "20.08.2025",
+        "points": 1152,
+        "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=189238",
+        "start_coordinates": [
+          49.25416666666667,
+          16.51805
+        ],
+        "lkcm_start": true,
+        "category": "club",
+        "glider_name": "Std. Cirrus",
+        "task_distance_km": 594.6,
+        "task_speed_kmh": 88.97,
+        "task_shape": "návratová",
+        "task_type": "rychlostní let podle deklarace ⇴",
+        "pilot": "Michal Cupák",
+        "pilot_year_of_birth": "1991",
+        "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=2954&sez_rok=2025"
+      },
+      {
+        "date": "15.08.2025",
+        "points": 965,
+        "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=188713",
+        "start_coordinates": [
+          49.23695,
+          16.555283333333332
+        ],
+        "lkcm_start": true,
+        "category": "club",
+        "glider_name": "ASW-15",
+        "task_distance_km": 567.1,
+        "task_speed_kmh": 85.56,
+        "task_shape": "trojúhelník",
+        "task_type": "rychlostní let se změnou tratě za letu",
+        "pilot": "Aleš Nestrojil",
+        "pilot_year_of_birth": "1980",
+        "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=1983&sez_rok=2025"
+      },
+      {
+        "date": "20.08.2025",
+        "points": 953,
+        "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=189235",
+        "start_coordinates": [
+          49.26235,
+          16.55095
+        ],
+        "lkcm_start": true,
+        "category": "club",
+        "glider_name": "Std. Cirrus",
+        "task_distance_km": 502.0,
+        "task_speed_kmh": 81.28,
+        "task_shape": "návratová",
+        "task_type": "rychlostní let podle deklarace ⇴",
+        "pilot": "Matyáš John",
+        "pilot_year_of_birth": "2002",
+        "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=4519&sez_rok=2025"
+      },
+      {
+        "date": "15.08.2025",
+        "points": 907,
+        "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=188631",
+        "start_coordinates": [
+          49.2425,
+          16.55305
+        ],
+        "lkcm_start": true,
+        "category": "club",
+        "glider_name": "Std. Cirrus",
+        "task_distance_km": 401.0,
+        "task_speed_kmh": 91.54,
+        "task_shape": "FAI trojúhelník s odletem z ramene",
+        "task_type": "rychlostní let podle deklarace ⇴",
+        "pilot": "Vít Prokop",
+        "pilot_year_of_birth": "1987",
+        "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=2690&sez_rok=2025"
+      },
+      {
+        "date": "20.08.2025",
+        "points": 897,
+        "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=189301",
+        "start_coordinates": [
+          49.2623,
+          16.5509
+        ],
+        "lkcm_start": true,
+        "category": "club",
+        "glider_name": "DG-300 (450 kg)",
+        "task_distance_km": 502.0,
+        "task_speed_kmh": 80.57,
+        "task_shape": "návratová",
+        "task_type": "rychlostní let podle deklarace ⇴",
+        "pilot": "Jan Buchta",
+        "pilot_year_of_birth": "1974",
+        "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=4433&sez_rok=2025"
+      },
+      {
+        "date": "15.08.2025",
+        "points": 772,
+        "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=188718",
+        "start_coordinates": [
+          49.305166666666665,
+          16.57605
+        ],
+        "lkcm_start": true,
+        "category": "club",
+        "glider_name": "Std. Cirrus",
+        "task_distance_km": 373.5,
+        "task_speed_kmh": 87.73,
+        "task_shape": "trojúhelník",
+        "task_type": "rychlostní let podle deklarace ⇴",
+        "pilot": "Stanislav Doskočil",
+        "pilot_year_of_birth": "1978",
+        "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=2618&sez_rok=2025"
+      },
+      {
+        "date": "15.08.2025",
+        "points": 762,
+        "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=189259",
+        "start_coordinates": [
+          49.336666666666666,
+          16.553616666666667
+        ],
+        "lkcm_start": true,
+        "category": "club",
+        "glider_name": "TST-10M Atlas",
+        "task_distance_km": 346.1,
+        "task_speed_kmh": 81.36,
+        "task_shape": "návratová",
+        "task_type": "rychlostní let podle deklarace ⇴",
+        "pilot": "Jaroslav Zavřel",
+        "pilot_year_of_birth": "1971",
+        "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=147&sez_rok=2025"
+      },
+      {
+        "date": "24.08.2025",
+        "points": 757,
+        "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=189508",
+        "start_coordinates": [
+          49.2425,
+          16.55305
+        ],
+        "lkcm_start": true,
+        "category": "club",
+        "glider_name": "Std. Cirrus",
+        "task_distance_km": 407.3,
+        "task_speed_kmh": 87.06,
+        "task_shape": "polygon s 3OB",
+        "task_type": "rychlostní let podle deklarace ⇴",
+        "pilot": "Jan Šponer",
+        "pilot_year_of_birth": "1988",
+        "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=1147&sez_rok=2025"
+      },
+      {
+        "date": "30.04.2025",
+        "points": 754,
+        "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=182123",
+        "start_coordinates": [
+          49.236783333333335,
+          16.555283333333332
+        ],
+        "lkcm_start": true,
+        "category": "club",
+        "glider_name": "Std. Cirrus WL",
+        "task_distance_km": 410.9,
+        "task_speed_kmh": 84.97,
+        "task_shape": "polygon s 3OB",
+        "task_type": "rychlostní let podle deklarace ⇴",
+        "pilot": "Martin Šťastný",
+        "pilot_year_of_birth": "2005",
+        "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=4011&sez_rok=2025"
+      },
+      {
+        "date": "20.08.2025",
+        "points": 709,
+        "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=189188",
+        "start_coordinates": [
+          49.23695,
+          16.555
+        ],
+        "lkcm_start": true,
+        "category": "club",
+        "glider_name": "TST-10M Atlas",
+        "task_distance_km": 313.8,
+        "task_speed_kmh": 82.37,
+        "task_shape": "trojúhelník",
+        "task_type": "rychlostní let podle deklarace ⇴",
+        "pilot": "Gustav Vrbacký",
+        "pilot_year_of_birth": "1933",
+        "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=88&sez_rok=2025"
+      },
+      {
+        "date": "20.08.2025",
+        "points": 687,
+        "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=189223",
+        "start_coordinates": [
+          49.2748,
+          16.5412
+        ],
+        "lkcm_start": true,
+        "category": "club",
+        "glider_name": "Std. Cirrus",
+        "task_distance_km": 354.5,
+        "task_speed_kmh": 89.84,
+        "task_shape": "polygon s 3OB",
+        "task_type": "rychlostní let podle deklarace ⇴",
+        "pilot": "Vojtěch Pávek",
+        "pilot_year_of_birth": "2000",
+        "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=4031&sez_rok=2025"
+      },
+      {
+        "date": "01.05.2025",
+        "points": 675,
+        "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=182570",
+        "start_coordinates": [
+          49.23695,
+          16.555283333333332
+        ],
+        "lkcm_start": true,
+        "category": "club",
+        "glider_name": "Std. Cirrus",
+        "task_distance_km": 352.9,
+        "task_speed_kmh": 65.76,
+        "task_shape": "FAI trojúhelník",
+        "task_type": "rychlostní let podle deklarace ⇴",
+        "pilot": "Peter Bučko",
+        "pilot_year_of_birth": "1988",
+        "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=4248&sez_rok=2025"
+      },
+      {
+        "date": "20.08.2025",
+        "points": 658,
+        "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=189322",
+        "start_coordinates": [
+          49.308883333333334,
+          16.612216666666665
+        ],
+        "lkcm_start": true,
+        "category": "club",
+        "glider_name": "ASW-24(A)+WL",
+        "task_distance_km": 403.4,
+        "task_speed_kmh": 81.9,
+        "task_shape": "polygon s 3OB",
+        "task_type": "rychlostní let podle deklarace ⇴",
+        "pilot": "Roman Pavlík",
+        "pilot_year_of_birth": "1971",
+        "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=2662&sez_rok=2025"
+      },
+      {
+        "date": "01.05.2025",
+        "points": 656,
+        "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=182500",
+        "start_coordinates": [
+          49.2375,
+          16.558333333333334
+        ],
+        "lkcm_start": true,
+        "category": "club",
+        "glider_name": "ASW-15B",
+        "task_distance_km": 323.7,
+        "task_speed_kmh": 78.85,
+        "task_shape": "trojúhelník",
+        "task_type": "rychlostní let podle deklarace ⇴",
+        "pilot": "Oldřich Hlaváček",
+        "pilot_year_of_birth": "1973",
+        "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=151&sez_rok=2025"
+      },
+      {
+        "date": "09.05.2025",
+        "points": 652,
+        "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=183272",
+        "start_coordinates": [
+          49.266466666666666,
+          16.565666666666665
+        ],
+        "lkcm_start": true,
+        "category": "club",
+        "glider_name": "LS-1f",
+        "task_distance_km": 548.6,
+        "task_speed_kmh": 89.75,
+        "task_shape": "2OB",
+        "task_type": "volný let na vzdálenost",
+        "pilot": "Štěpán Fiľakovský",
+        "pilot_year_of_birth": "2005",
+        "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=4008&sez_rok=2025"
+      },
+      {
+        "date": "01.05.2025",
+        "points": 638,
+        "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=182504",
+        "start_coordinates": [
+          49.2369,
+          16.5553
+        ],
+        "lkcm_start": true,
+        "category": "club",
+        "glider_name": "Pik-20B",
+        "task_distance_km": 352.9,
+        "task_speed_kmh": 63.77,
+        "task_shape": "FAI trojúhelník",
+        "task_type": "rychlostní let podle deklarace ⇴",
+        "pilot": "David Jelínek",
+        "pilot_year_of_birth": "1979",
+        "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=2324&sez_rok=2025"
+      },
+      {
+        "date": "24.08.2025",
+        "points": 610,
+        "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=189733",
+        "start_coordinates": [
+          49.23676666666667,
+          16.555266666666668
+        ],
+        "lkcm_start": true,
+        "category": "club",
+        "glider_name": "Janus c/cM/cT",
+        "task_distance_km": 324.8,
+        "task_speed_kmh": 77.89,
+        "task_shape": "trojúhelník",
+        "task_type": "rychlostní let podle deklarace ⇴",
+        "pilot": "Michal Šťastný",
+        "pilot_year_of_birth": "1970",
+        "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=265&sez_rok=2025"
+      },
+      {
+        "date": "20.08.2025",
+        "points": 607,
+        "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=189774",
+        "start_coordinates": [
+          49.23695,
+          16.555
+        ],
+        "lkcm_start": true,
+        "category": "club",
+        "glider_name": "Discus CS",
+        "task_distance_km": 300.6,
+        "task_speed_kmh": 93.22,
+        "task_shape": "trojúhelník",
+        "task_type": "rychlostní let podle deklarace ⇴",
+        "pilot": "Vít Hrdlička",
+        "pilot_year_of_birth": "1960",
+        "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=164&sez_rok=2025"
+      },
+      {
+        "date": "20.08.2025",
+        "points": 491,
+        "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=189344",
+        "start_coordinates": [
+          49.269533333333335,
+          16.56598333333333
+        ],
+        "lkcm_start": true,
+        "category": "club",
+        "glider_name": "G-104 Speed Astir II",
+        "task_distance_km": 367.3,
+        "task_speed_kmh": 81.82,
+        "task_shape": "polygon s 5OB",
+        "task_type": "není možné podle pravidel bodovat",
+        "pilot": "Vilém Hron",
+        "pilot_year_of_birth": "1998",
+        "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=4475&sez_rok=2025"
+      },
+      {
+        "date": "13.05.2025",
+        "points": 445,
+        "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=186401",
+        "start_coordinates": [
+          49.336666666666666,
+          16.553616666666667
+        ],
+        "lkcm_start": true,
+        "category": "club",
+        "glider_name": "Std. Cirrus",
+        "task_distance_km": 211.0,
+        "task_speed_kmh": 84.6,
+        "task_shape": "polygon s 3OB",
+        "task_type": "rychlostní let podle deklarace ⇴",
+        "pilot": "Jaroslav Florian",
+        "pilot_year_of_birth": "1977",
+        "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=1987&sez_rok=2025"
+      },
+      {
+        "date": "20.08.2025",
+        "points": 423,
+        "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=189394",
+        "start_coordinates": [
+          49.27923333333333,
+          16.533283333333333
+        ],
+        "lkcm_start": true,
+        "category": "club",
+        "glider_name": "G-102 Astir cs",
+        "task_distance_km": 224.1,
+        "task_speed_kmh": 67.82,
+        "task_shape": "polygon s 3OB",
+        "task_type": "rychlostní let podle deklarace ⇴",
+        "pilot": "Matúš Surovčák",
+        "pilot_year_of_birth": "1999",
+        "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=4128&sez_rok=2025"
+      },
+      {
+        "date": "20.08.2025",
+        "points": 404,
+        "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=189229",
+        "start_coordinates": [
+          49.305166666666665,
+          16.57605
+        ],
+        "lkcm_start": true,
+        "category": "club",
+        "glider_name": "Std. Cirrus",
+        "task_distance_km": 261.0,
+        "task_speed_kmh": 64.75,
+        "task_shape": "trojúhelník",
+        "task_type": "rychlostní let se změnou tratě za letu",
+        "pilot": "Jiří Materna",
+        "pilot_year_of_birth": "1984",
+        "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=3131&sez_rok=2025"
+      },
+      {
+        "date": "24.08.2025",
+        "points": 373,
+        "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=189771",
+        "start_coordinates": [
+          49.29638333333333,
+          16.52555
+        ],
+        "lkcm_start": true,
+        "category": "club",
+        "glider_name": "Std. Cirrus",
+        "task_distance_km": 182.5,
+        "task_speed_kmh": 76.25,
+        "task_shape": "FAI trojúhelník",
+        "task_type": "rychlostní let se změnou tratě za letu",
+        "pilot": "Filip Fousek",
+        "pilot_year_of_birth": "1981",
+        "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=3809&sez_rok=2025"
+      },
+      {
+        "date": "20.08.2025",
+        "points": 319,
+        "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=189338",
+        "start_coordinates": [
+          49.259033333333335,
+          16.5527
+        ],
+        "lkcm_start": true,
+        "category": "club",
+        "glider_name": "Std. Cirrus",
+        "task_distance_km": 239.5,
+        "task_speed_kmh": 66.23,
+        "task_shape": "polygon s 5OB",
+        "task_type": "není možné podle pravidel bodovat",
+        "pilot": "Ivan Poláček",
+        "pilot_year_of_birth": "1948",
+        "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=130&sez_rok=2025"
+      },
+      {
+        "date": "13.07.2025",
+        "points": 279,
+        "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=186555",
+        "start_coordinates": [
+          49.236783333333335,
+          16.555283333333332
+        ],
+        "lkcm_start": true,
+        "category": "club",
+        "glider_name": "Std. Cirrus",
+        "task_distance_km": 164.5,
+        "task_speed_kmh": 64.98,
+        "task_shape": "návratová",
+        "task_type": "rychlostní let se změnou tratě za letu",
+        "pilot": "Peter Palatinus",
+        "pilot_year_of_birth": "1987",
+        "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=3093&sez_rok=2025"
+      }
+    ],
+    "zakladni": [
+      {
+        "date": "20.08.2025",
+        "points": 735,
+        "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=189170",
+        "start_coordinates": [
+          49.26235,
+          16.55095
+        ],
+        "lkcm_start": true,
+        "category": "zakladni",
+        "glider_name": "L-13 Blaník",
+        "task_distance_km": 277.4,
+        "task_speed_kmh": 63.39,
+        "task_shape": "trojúhelník",
+        "task_type": "rychlostní let podle deklarace ⇴",
+        "pilot": "Jan Gottvald",
+        "pilot_year_of_birth": "1983",
+        "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=2935&sez_rok=2025"
+      },
+      {
+        "date": "24.08.2025",
+        "points": 202,
+        "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=189577",
+        "start_coordinates": [
+          49.236783333333335,
+          16.555283333333332
+        ],
+        "lkcm_start": true,
+        "category": "zakladni",
+        "glider_name": "LG-125 Šohaj 2",
+        "task_distance_km": 117.1,
+        "task_speed_kmh": 43.54,
+        "task_shape": "polygon s 5OB",
+        "task_type": "rychlostní let se změnou tratě za letu",
+        "pilot": "Vít Hrdlička",
+        "pilot_year_of_birth": "1960",
+        "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=164&sez_rok=2025"
+      }
+    ],
+    "classic": [
+      {
+        "date": "30.04.2025",
+        "points": 726,
+        "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=182126",
+        "start_coordinates": [
+          49.236783333333335,
+          16.555283333333332
+        ],
+        "lkcm_start": true,
+        "category": "classic",
+        "glider_name": "VT-116 Orlik II",
+        "task_distance_km": 301.6,
+        "task_speed_kmh": 56.09,
+        "task_shape": "FAI trojúhelník s odletem z ramene",
+        "task_type": "rychlostní let podle deklarace ⇴",
+        "pilot": "Jan Gottvald",
+        "pilot_year_of_birth": "1983",
+        "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=2935&sez_rok=2025"
+      },
+      {
+        "date": "11.05.2025",
+        "points": 580,
+        "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=183714",
+        "start_coordinates": [
+          49.2375,
+          16.558333333333334
+        ],
+        "lkcm_start": true,
+        "category": "classic",
+        "glider_name": "VT-116 Orlik II",
+        "task_distance_km": 218.1,
+        "task_speed_kmh": 60.62,
+        "task_shape": "FAI trojúhelník",
+        "task_type": "rychlostní let podle deklarace ⇴",
+        "pilot": "Oldřich Hlaváček",
+        "pilot_year_of_birth": "1973",
+        "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=151&sez_rok=2025"
+      },
+      {
+        "date": "15.08.2025",
+        "points": 537,
+        "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=188801",
+        "start_coordinates": [
+          49.35166666666667,
+          16.648616666666666
+        ],
+        "lkcm_start": true,
+        "category": "classic",
+        "glider_name": "Ka 6E",
+        "task_distance_km": 215.7,
+        "task_speed_kmh": 58.87,
+        "task_shape": "trojúhelník",
+        "task_type": "rychlostní let podle deklarace ⇴",
+        "pilot": "Michal Ondráček",
+        "pilot_year_of_birth": "1966",
+        "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=2542&sez_rok=2025"
+      },
+      {
+        "date": "21.06.2025",
+        "points": 418,
+        "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=185478",
+        "start_coordinates": [
+          49.33583333333333,
+          16.5525
+        ],
+        "lkcm_start": true,
+        "category": "classic",
+        "glider_name": "VT-116 Orlik II",
+        "task_distance_km": 191.0,
+        "task_speed_kmh": 56.16,
+        "task_shape": "polygon s 3OB",
+        "task_type": "rychlostní let podle deklarace ⇴",
+        "pilot": "Petr Jedlička",
+        "pilot_year_of_birth": "1987",
+        "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=2120&sez_rok=2025"
+      },
+      {
+        "date": "21.06.2025",
+        "points": 127,
+        "url": "https://www.cpska.cz/public/index3.php?lpg=zobraz_let&let_id=185408",
+        "start_coordinates": [
+          49.274116666666664,
+          16.567516666666666
+        ],
+        "lkcm_start": true,
+        "category": "classic",
+        "glider_name": "VT-116 Orlik II",
+        "task_distance_km": 106.7,
+        "task_speed_kmh": 35.86,
+        "task_shape": "polygon s 5OB",
+        "task_type": "není možné podle pravidel bodovat",
+        "pilot": "Petr Vězda",
+        "pilot_year_of_birth": "1974",
+        "pilot_url": "https://www.cpska.cz/public/index3.php?lpg=sprava00&userid=2007&sez_rok=2025"
+      }
+    ]
+  },
+  "types_per_category": {
+    "club": [
+      "DG-300 (450 kg)",
+      "G-102 Astir cs",
+      "ASW-24(A)+WL",
+      "TST-10 Atlas",
+      "Janus c/cM/cT",
+      "G-104 Speed Astir II",
+      "ASW-15",
+      "Std. Cirrus",
+      "Discus CS",
+      "LS-1f",
+      "Pik-20B",
+      "TST-10M Atlas",
+      "ASW-15B",
+      "Std. Cirrus WL"
+    ],
+    "open": [
+      "ASW-20 C(L) /15m",
+      "Duo Discus XL(T)",
+      "Nimbus-2c",
+      "Duo Discus X(T)",
+      "LAK 17A(T) /18m",
+      "JS3 (RES/TJ) 18m",
+      "LS-8a /15m",
+      "ASW-20 (A)+F /15m +WL",
+      "Ventus c /17,6m",
+      "LAK 12",
+      "ASW-20 B(L) /15m",
+      "LS-8-18 18m",
+      "ASG-32 /EL/Mi 800kg"
+    ],
+    "zakladni": [
+      "LG-125 Šohaj 2",
+      "L-13 Blaník"
+    ],
+    "classic": [
+      "Ka 6E",
+      "VT-116 Orlik II"
+    ]
+  }
 }

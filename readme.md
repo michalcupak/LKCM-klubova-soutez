@@ -9,7 +9,7 @@ pip install requests beautifulsoup4 geopy python-dotenv
 
 ## How to execute
 ```% python soutez.py```  
-Výstupem je soubor ```index.html```
+Výstupem je soubor ```soutez_vysledky.json```, ktery je ve skriptu zaroven uploadovan na FTP
 
 ## Todo
 - doplnit **"Body CPS"** ke kazdemu pilotovi
