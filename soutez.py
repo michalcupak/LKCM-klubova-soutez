@@ -21,7 +21,7 @@ cps_year = str(datetime.today().year - (1 if datetime.today().month <= 3 else 0)
 LKCM_coordinates = (49.2369444, 16.5552778)
 start_buffer_km = 20
 
-category_club = ["std. cirrus", "asw-15", "asw-19", "asw-24", "atlas", "ls-1", "astir", "cobra", "phoebus", "pik-20", "dg-300", "discus cs", "janus"]
+category_club = ["std. cirrus", "asw-15", "asw-19", "asw-24", "atlas", "ls-1", "astir", "cobra", "phoebus", "pik-20", "dg-300", "discus cs"]
 category_classic = ["orlik", "m-28", "m-35", "foka", "ka 6"]
 category_zakladni = ["blaník", "bergfalke", "šohaj", "luňák", "spatz"]
 
