@@ -25,6 +25,14 @@ category_club = ["std. cirrus", "asw-15", "asw-19", "asw-24", "atlas", "ls-1", "
 category_classic = ["orlik", "m-28", "m-35", "foka", "ka 6"]
 category_zakladni = ["blaník", "bergfalke", "šohaj", "luňák", "spatz"]
 
+VEKOVE_KATEGORIE = {
+    "Mladší junior": "do 25 let",
+    "Starší junior": "26 - 40 let",
+    "Mladší senior": "41 - 55 let",
+    "Starší senior": "56 - 70 let",
+    "Super senior": "70 a více let"
+}
+
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 output_path = os.path.join(BASE_DIR, 'soutez_vysledky.json')
 
@@ -172,17 +180,17 @@ def get_category(glider_name: str) -> str:
     # kontrola přes "substring" – aby to fungovalo i kdyby tam bylo např. "Std. Cirrus B"
     for name in category_club:
         if name in glider_name_norm:
-            return "club"
+            return "Club"
 
     for name in category_classic:
         if name in glider_name_norm:
-            return "classic"
+            return "Classic"
 
     for name in category_zakladni:
         if name in glider_name_norm:
-            return "zakladni"
+            return "Základní"
 
-    return "open"
+    return "Open"
 
 
 def get_pilot_flights(url):
@@ -303,6 +311,76 @@ def hodnoceni_typove_souteze(pilots_info):
     return typova_soutez_vysledky
 
 
+def vekova_kategorie(year_of_birth: int):
+    """
+    Pilot je v kategorii podle věku, kterého v daném roce dosáhne (tj. season_year - year_of_birth).
+    Do vyšší kategorie spadne už v roce, kdy dosáhne minimálního věku pro danou kategorii.
+    """
+    age = int(cps_year) - year_of_birth
+
+    nazev_kategorie = list(VEKOVE_KATEGORIE.keys())
+
+    # hranice podle zadání
+    if age <= 25:
+        return nazev_kategorie[0]
+    elif 26 <= age <= 40:
+        return nazev_kategorie[1]
+    elif 41 <= age <= 55:
+        return nazev_kategorie[2]
+    elif 56 <= age <= 70:
+        return nazev_kategorie[3]
+    else:  # age >= 71
+        return nazev_kategorie[4]
+
+def hodnoceni_vekove_souteze(pilots_info):
+    """
+    Každému pilotovi se počítá 1 nejlepší let: první položka v pilot['top_4_lkcm_flights'].
+    Výsledky jsou seskupené podle věkových kategorií a v každé kategorii seřazené dle points sestupně.
+    """
+
+    vekova_soutez_vysledky = {}
+
+    for pilot in pilots_info:
+        top_flights = pilot.get("top_4_lkcm_flights") or []
+        if not top_flights:
+            continue  # pilot nemá žádný let
+
+        flight = top_flights[0]
+        points = flight.get("points")
+        yob = pilot.get("year_of_birth")
+
+        # základní validace
+        if points is None or yob is None:
+            continue
+        try:
+            yob_int = int(yob)
+        except (TypeError, ValueError):
+            continue
+
+        category = vekova_kategorie(yob_int)
+
+        # zkopírujeme let, ať nemutujeme původní struktury
+        flight_row = dict(flight)
+        flight_row["pilot"] = pilot.get("name")
+        flight_row["pilot_year_of_birth"] = yob_int
+        flight_row["pilot_url"] = pilot.get("url")
+        flight_row["pilot_age_in_season"] = int(cps_year) - yob_int
+        flight_row["age_category"] = category
+
+        vekova_soutez_vysledky.setdefault(category, []).append(flight_row)
+
+    # seřazení v kategoriích
+    for category, flights in vekova_soutez_vysledky.items():
+        vekova_soutez_vysledky[category] = sorted(
+            flights,
+            key=lambda x: (x.get("points") is not None, x.get("points", 0)),
+            reverse=True,
+        )
+
+    return vekova_soutez_vysledky
+
+
+
 def main():
     print("AK Medlánky - Klubová soutěž " + cps_year)
     print("spuštěno: " + datetime.now().strftime('%d. %m. %Y %H:%M:%S') + "\n")
@@ -329,13 +407,24 @@ def main():
         print(f"{category}: {', '.join(sorted(types))}")
 
 
+    # Vekova soutez
+    print()
+    vekova_soutez_vysledky = hodnoceni_vekove_souteze(pilots_info)
+    print("vekova_soutez_vysledky:")
+    for category, flights in vekova_soutez_vysledky.items():
+        print(f"{category}:")
+        for flight in flights[:3]:
+            print(flight)
+
 
     soutez_vysledky = {
         "cps_year": cps_year,
         "updated_at": datetime.now().strftime('%d. %m. %Y %H:%M:%S'),
         "pilots_info": pilots_info,
         "typova_soutez_vysledky": typova_soutez_vysledky,
-        "types_per_category": {k: list(v) for k, v in types_per_category.items()},
+        "types_per_category": {k: ', '.join(sorted(list(v))) for k, v in types_per_category.items()},
+        "vekova_soutez_vysledky": vekova_soutez_vysledky,
+        "vekove_kategorie": VEKOVE_KATEGORIE,
     }
 
     with open(output_path, 'w', encoding="utf-8") as f:

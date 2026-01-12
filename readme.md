@@ -44,3 +44,5 @@ Výstupem je soubor ```soutez_vysledky.json```, ktery je ve skriptu zaroven uplo
 #### implementace automatickeho vyhodnocovani typove souteze
 - 4.1.2026 - 3h
 - 8.1.2026 - 4h
+- 10.1.2026 - 2h
+- 12.1.2026 - 2h
