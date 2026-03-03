@@ -35,10 +35,10 @@ cps_year = resolve_year(args.year)
 LKCM_coordinates = (49.2369444, 16.5552778)
 start_buffer_km = 20
 
-category_club = ["std. cirrus", "asw-15", "asw-19", "asw-24", "atlas", "ls-1", "astir", "cobra", "phoebus", "pik-20", "dg-300", "discus cs"]
-category_classic = ["orlik", "m-28", "m-35", "foka", "ka 6"]
-category_zakladni = ["blaník", "bergfalke", "šohaj", "luňák", "spatz"]
-category_open = [""]
+category_club = ["Std. Cirrus", "ASW-15", "ASW-19", "ASW-24", "Atlas", "LS-1", "Astir", "Cobra", "Phoebus", "Pik-20", "DG-300", "Discus cs"]
+category_classic = ["Orlik", "M-28", "M-35", "Foka", "Ka 6"]
+category_zakladni = ["Blaník", "Bergfalke", "Šohaj", "Luňák", "Spatz"]
+category_open = ["Duo Discus", "Ventus", "ASW-20", "ASG-32", "JS3", "LAK 12", "LAK 17", "LS-8", "Nimbus-2", "Janus"]
 
 VEKOVE_KATEGORIE = {
     "Mladší junior": "do 25 let",
@@ -195,15 +195,15 @@ def get_category(glider_name: str) -> str:
 
     # kontrola přes "substring" – aby to fungovalo i kdyby tam bylo např. "Std. Cirrus B"
     for name in category_club:
-        if name in glider_name_norm:
+        if name.lower() in glider_name_norm:
             return "Club"
 
     for name in category_classic:
-        if name in glider_name_norm:
+        if name.lower() in glider_name_norm:
             return "Classic"
 
     for name in category_zakladni:
-        if name in glider_name_norm:
+        if name.lower() in glider_name_norm:
             return "Základní"
 
     return "Open"
@@ -438,9 +438,15 @@ def main():
         "updated_at": datetime.now().strftime('%d. %m. %Y %H:%M:%S'),
         "pilots_info": pilots_info,
         "typova_soutez_vysledky": typova_soutez_vysledky,
-        "types_per_category": {k: ', '.join(sorted(list(v))) for k, v in types_per_category.items()},
+        "types_per_category": {k: sorted(list(v)) for k, v in types_per_category.items()},
         "vekova_soutez_vysledky": vekova_soutez_vysledky,
         "vekove_kategorie": VEKOVE_KATEGORIE,
+        "types_per_category_filter": {
+            "Club": ', '.join(category_club),
+            "Open": ', '.join(category_open),
+            "Základní": ', '.join(category_zakladni),
+            "Classic": ', '.join(category_classic),
+        }
     }
 
     with open(output_path, 'w', encoding="utf-8") as f:
