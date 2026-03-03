@@ -1,5 +1,6 @@
 import json
 from collections import defaultdict
+import argparse
 
 import requests
 from bs4 import BeautifulSoup
@@ -14,9 +15,22 @@ from ftp_upload import ftp_upload
 
 load_dotenv()
 
+# Zpracování volitelného vstupního parametru --year
+def resolve_year(year_arg):
+    if year_arg is None:
+        return str(datetime.today().year)
+    if year_arg == "previous_year":
+        return str(datetime.today().year - 1)
+    return year_arg
+
+parser = argparse.ArgumentParser(description="AK Medlánky - Klubová soutěž")
+parser.add_argument("--year", type=str, default=None,
+                    help='Rok soutěže (např. "2024") nebo "previous_year" pro loňský rok.')
+args = parser.parse_args()
+
 # Params
 # cps_year = "2024"
-cps_year = str(datetime.today().year)
+cps_year = resolve_year(args.year)
 # cps_year = str(datetime.today().year - (1 if datetime.today().month <= 3 else 0))
 LKCM_coordinates = (49.2369444, 16.5552778)
 start_buffer_km = 20

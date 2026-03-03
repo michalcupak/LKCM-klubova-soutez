@@ -17,6 +17,28 @@ pip install requests beautifulsoup4 geopy python-dotenv
 ```% python soutez.py```  
 Výstupem je soubor ```soutez_vysledky.json```, ktery je ve skriptu zaroven uploadovan na FTP
 
+### Parametry - příklady spuštění
+```
+# Výchozí chování – aktuální rok
+python soutez.py
+
+# Konkrétní rok
+python soutez.py --year 2024
+
+# Loňský rok (dopočítá se automaticky)
+python soutez.py --year previous_year
+```
+
+### Priklady CRON jobu
+```
+# v lednu a unoru kazdy den ve 3:30 spousti vypocet pro lonsky rocnik
+30 03 * 1,2 * ~/LKCM-klubova-soutez/venv/bin/python3 ~/LKCM-klubova-soutez/soutez.py --year previous_year > ~/LKCM-klubova-soutez/logfile.log 2>&1
+
+# kazdy den ve 4:30 spousti vypocet pro aktualni rocnik
+30 04 * * * ~/LKCM-klubova-soutez/venv/bin/python3 ~/LKCM-klubova-soutez/soutez.py > ~/LKCM-klubova-soutez/logfile.log 2>&1
+
+```
+
 ## How to deploy on Raspberry
  - prejit do adresare s repozitarem (~/LKCM-klubova-soutez)
  - smazat soubor ```soutez_vysledky.json```
