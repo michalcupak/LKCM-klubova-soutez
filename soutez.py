@@ -15,15 +15,16 @@ from ftp_upload import ftp_upload
 load_dotenv()
 
 # Params
-#cps_year = "2025"
-#cps_year = str(datetime.today().year)
-cps_year = str(datetime.today().year - (1 if datetime.today().month <= 3 else 0))
+# cps_year = "2024"
+cps_year = str(datetime.today().year)
+# cps_year = str(datetime.today().year - (1 if datetime.today().month <= 3 else 0))
 LKCM_coordinates = (49.2369444, 16.5552778)
 start_buffer_km = 20
 
 category_club = ["std. cirrus", "asw-15", "asw-19", "asw-24", "atlas", "ls-1", "astir", "cobra", "phoebus", "pik-20", "dg-300", "discus cs"]
 category_classic = ["orlik", "m-28", "m-35", "foka", "ka 6"]
 category_zakladni = ["blaník", "bergfalke", "šohaj", "luňák", "spatz"]
+category_open = [""]
 
 VEKOVE_KATEGORIE = {
     "Mladší junior": "do 25 let",
@@ -35,6 +36,7 @@ VEKOVE_KATEGORIE = {
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 output_path = os.path.join(BASE_DIR, 'soutez_vysledky.json')
+year_map_path = os.path.join(BASE_DIR, 'year_map.json')
 
 # global variables
 types_per_category = defaultdict(set)
@@ -434,7 +436,13 @@ def main():
 
     ftp = ftp_upload.connect_to_ftp(os.getenv('FTP_SERVER'), os.getenv('FTP_USERNAME'), os.getenv('FTP_PASSWORD'))
     if ftp:
-        ftp_upload.upload_file_to_ftp(ftp, output_path, "/www/subdom/lkcm/soutez/soutez_vysledky.json")
+        ftp_upload.upload_file_to_ftp(ftp, output_path, os.path.join(os.getenv('FTP_DIRECTORY_PATH'), "soutez_vysledky/soutez_vysledky_" + cps_year + ".json"))
+        year_map = ftp_upload.build_year_to_filename_map(ftp, os.path.join(os.getenv('FTP_DIRECTORY_PATH'), "soutez_vysledky/"))
+        print(f"year_map: {year_map}")
+
+        with open(year_map_path, 'w', encoding="utf-8") as f:
+            json.dump(year_map, f, ensure_ascii=False, indent=2)
+        ftp_upload.upload_file_to_ftp(ftp, year_map_path, os.path.join(os.getenv('FTP_DIRECTORY_PATH'), "year_map.json"))
 
         ftp.quit()
 

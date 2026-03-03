@@ -24,25 +24,13 @@ Výstupem je soubor ```soutez_vysledky.json```, ktery je ve skriptu zaroven uplo
  - git fetch
  - git pull
 
-## Todo
-- doplnit **"Body CPS"** ke kazdemu pilotovi
-- **Věková soutěž**
+## Věková soutěž
   - mladší junior - věk do 25 let 
   - starší junior - věk 26 - 40 let
   - mladší senior - věk 41 - 55 let
   - starší senior - věk 56 - 70 let
   - super senior - věk 70 a více let
 
-## Brig. hodiny
-#### implementace automatickeho vyhodnocovani klubove souteze
-- 18.8.2025 - 2h 
-- 19.8.2025 - 5h 
-- 21.8.2025 - 2h
-- 22.8.2025 - 6h
-- 27.8.2025 - 1h
-
-#### implementace automatickeho vyhodnocovani typove souteze
-- 4.1.2026 - 3h
-- 8.1.2026 - 4h
-- 10.1.2026 - 2h
-- 12.1.2026 - 2h
+## Todo
+- doplnit **"Body CPS"** ke kazdemu pilotovi
+- human-readable seznam kluzáků v typových kategoriích
