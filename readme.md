@@ -55,4 +55,4 @@ python soutez.py --year previous_year
 
 ## Todo
 - doplnit **"Body CPS"** ke kazdemu pilotovi
-- human-readable seznam kluzáků v typových kategoriích
+
