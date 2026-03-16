@@ -35,10 +35,20 @@ cps_year = resolve_year(args.year)
 LKCM_coordinates = (49.2369444, 16.5552778)
 start_buffer_km = 20
 
-category_club = ["Std. Cirrus", "ASW-15", "ASW-19", "ASW-24", "Atlas", "LS-1", "Astir", "Cobra", "Phoebus", "Pik-20", "DG-300", "Discus cs"]
-category_classic = ["Orlik", "M-28", "M-35", "Foka", "Ka 6"]
-category_zakladni = ["Blaník", "Bergfalke", "Šohaj", "Luňák", "Spatz"]
-category_open = ["Duo Discus", "Ventus", "ASW-20", "ASG-32", "JS3", "LAK 12", "LAK 17", "LS-8", "Nimbus-2", "Janus"]
+# category_club = ["Std. Cirrus", "ASW-15", "ASW-19", "ASW-24", "Atlas", "LS-1", "Astir", "Cobra", "Phoebus", "Pik-20", "DG-300", "Discus cs"]
+# category_classic = ["Orlik", "M-28", "M-35", "Foka", "Ka 6"]
+# category_zakladni = ["Blaník", "Bergfalke", "Šohaj", "Luňák", "Spatz"]
+# category_open = ["Duo Discus", "Ventus", "ASW-20", "ASG-32", "JS3", "LAK 12", "LAK 17", "LS-8", "Nimbus-2", "Janus"]
+
+category_club = json.loads(os.getenv("CATEGORY_CLUB", "[]"))
+category_classic = json.loads(os.getenv("CATEGORY_CLASSIC", "[]"))
+category_zakladni = json.loads(os.getenv("CATEGORY_ZAKLADNI", "[]"))
+category_open = json.loads(os.getenv("CATEGORY_OPEN", "[]"))
+
+print(category_club)
+print(category_classic)
+print(category_zakladni)
+print(category_open)
 
 VEKOVE_KATEGORIE = {
     "Mladší junior": "do 25 let",
@@ -456,13 +466,13 @@ def main():
 
     ftp = ftp_upload.connect_to_ftp(os.getenv('FTP_SERVER'), os.getenv('FTP_USERNAME'), os.getenv('FTP_PASSWORD'))
     if ftp:
-        ftp_upload.upload_file_to_ftp(ftp, output_path, os.path.join(os.getenv('FTP_DIRECTORY_PATH'), "soutez_vysledky/soutez_vysledky_" + cps_year + ".json"))
-        year_map = ftp_upload.build_year_to_filename_map(ftp, os.path.join(os.getenv('FTP_DIRECTORY_PATH'), "soutez_vysledky/"))
+        ftp_upload.upload_file_to_ftp(ftp, output_path, os.path.join(os.getenv('FTP_DIRECTORY_PATH_SOUTEZ'), "soutez_vysledky/soutez_vysledky_" + cps_year + ".json"))
+        year_map = ftp_upload.build_year_to_filename_map(ftp, os.path.join(os.getenv('FTP_DIRECTORY_PATH_SOUTEZ'), "soutez_vysledky/"))
         print(f"year_map: {year_map}")
 
         with open(year_map_path, 'w', encoding="utf-8") as f:
             json.dump(year_map, f, ensure_ascii=False, indent=2)
-        ftp_upload.upload_file_to_ftp(ftp, year_map_path, os.path.join(os.getenv('FTP_DIRECTORY_PATH'), "year_map.json"))
+        ftp_upload.upload_file_to_ftp(ftp, year_map_path, os.path.join(os.getenv('FTP_DIRECTORY_PATH_SOUTEZ'), "year_map.json"))
 
         ftp.quit()
 

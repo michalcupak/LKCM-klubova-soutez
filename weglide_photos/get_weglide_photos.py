@@ -15,14 +15,7 @@ def convert_date(d):
 
 def scrape_images():
     try:
-        # poslednich 100 letu v CR
-        # url = 'https://api.weglide.org/v1/flight?country_id_in=CZ&contest=free&order_by=-scoring_date&not_scored=false&story=false&valid=false&skip=0&limit=100&include_story=true&include_stats=false&format=json'
-
-        # poslednich 100 letu clenu AK Medlanky
-        url = 'https://api.weglide.org/v1/flight?club_id_in=1152&contest=free&order_by=-scoring_date&not_scored=false&story=false&valid=false&skip=0&limit=100&include_story=true&include_stats=false&format=json'
-
-        # Lety Michal Cupak
-        # url = 'https://api.weglide.org/v1/flight?user_id_in=11692&contest=free&order_by=-scoring_date&not_scored=false&story=false&valid=false&skip=0&limit=100&include_story=true&include_stats=false&format=json'
+        url = os.getenv('WEGLIDE_FLIGHTS_URL')
         headers = {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36",
             "Accept": "application/json",
@@ -66,6 +59,6 @@ if __name__ == '__main__':
 
     ftp = ftp_upload.connect_to_ftp(os.getenv('FTP_SERVER'), os.getenv('FTP_USERNAME'), os.getenv('FTP_PASSWORD'))
     if ftp:
-        ftp_upload.upload_file_to_ftp(ftp, output_path, "/www/subdom/lkcm/weglide_slideshow/image_urls.json")
+        ftp_upload.upload_file_to_ftp(ftp, output_path, os.path.join(os.getenv('FTP_DIRECTORY_PATH_WEGLIDE_SLIDESHOW'), "image_urls.json"))
         ftp.quit()
 
