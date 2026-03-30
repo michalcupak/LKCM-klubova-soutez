@@ -28,6 +28,7 @@ sudo adduser worker
 su worker
 cd ~
 git clone https://github.com/michalcupak/LKCM-klubova-soutez.git
+chmod 700 LKCM-klubova-soutez
 cd LKCM-klubova-soutez
 
 # create venv and install requirements
