@@ -12,8 +12,10 @@ from dateutil.parser import parse
 from dotenv import load_dotenv
 import os
 from ftp_upload import ftp_upload
+from pathlib import Path
 
-load_dotenv()
+env_path = Path.home() / ".config" / "LKCM-klubova-soutez" / ".env"
+load_dotenv(env_path)
 
 # Zpracování volitelného vstupního parametru --year
 def resolve_year(year_arg):

@@ -4,8 +4,10 @@ from dotenv import load_dotenv
 import os
 from datetime import datetime
 from ftp_upload import ftp_upload
+from pathlib import Path
 
-load_dotenv()
+env_path = Path.home() / ".config" / "LKCM-klubova-soutez" / ".env"
+load_dotenv(env_path)
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 os.makedirs(os.path.join(BASE_DIR, 'weglide_photos',), exist_ok=True)
