@@ -1,5 +1,7 @@
 from ftplib import FTP
+from ftplib import FTP_TLS
 import re
+import ssl
 
 def connect_to_ftp(ftp_server, ftp_username, ftp_password):
     try:
@@ -9,6 +11,21 @@ def connect_to_ftp(ftp_server, ftp_username, ftp_password):
         return ftp
     except Exception as e:
         print(f"Chyba při připojení k FTP serveru: {e}")
+        return None
+
+def connect_to_ftps(ftp_server, ftp_username, ftp_password, port=21):
+    try:
+        context = ssl.create_default_context()
+        ftp = FTP_TLS(context=context)  # šifrovaný řídicí kanál
+        ftp.connect(ftp_server, port, timeout=30)
+        ftp.login(user=ftp_username, passwd=ftp_password)
+        # ftp.prot_p()      # šifrování datového kanálu > Chyba při nahrávání souboru: 522 SSL connection failed; session reuse required: see require_ssl_reuse option in vsftpd.conf man page
+        ftp.prot_c()        # nešifrovaný datový kanál
+        ftp.set_pasv(True)
+        print(f"Pripojeno k FTPS serveru: {ftp_server}")
+        return ftp
+    except Exception as e:
+        print(f"Chyba při připojení k FTPS serveru: {e}")
         return None
 
 def list_ftp_directory(ftp):

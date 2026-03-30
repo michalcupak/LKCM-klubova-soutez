@@ -8,7 +8,8 @@ from ftp_upload import ftp_upload
 load_dotenv()
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-output_path = os.path.join(BASE_DIR, 'image_urls.json')
+os.makedirs(os.path.join(BASE_DIR, 'weglide_photos',), exist_ok=True)
+output_path = os.path.join(BASE_DIR, 'weglide_photos', 'image_urls.json')
 
 def convert_date(d):
     return datetime.strptime(d, "%Y-%m-%d").strftime("%d.%m.%Y")
@@ -57,7 +58,7 @@ if __name__ == '__main__':
     with open(output_path, 'w', encoding="utf-8") as f:
         json.dump(image_urls, f, ensure_ascii=False, indent=2)
 
-    ftp = ftp_upload.connect_to_ftp(os.getenv('FTP_SERVER'), os.getenv('FTP_USERNAME'), os.getenv('FTP_PASSWORD'))
+    ftp = ftp_upload.connect_to_ftps(os.getenv('FTP_SERVER'), os.getenv('FTP_USERNAME'), os.getenv('FTP_PASSWORD'))
     if ftp:
         ftp_upload.upload_file_to_ftp(ftp, output_path, os.path.join(os.getenv('FTP_DIRECTORY_PATH_WEGLIDE_SLIDESHOW'), "image_urls.json"))
         ftp.quit()

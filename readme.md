@@ -10,8 +10,12 @@
   - Základní - Blaník; Bergfalke; Šohaj; Luňák
   - Volná - Ventus; LAK-17; ASW-20; Nimbus; ASG-29,32, JS3
 
-## Requirments
-pip install requests beautifulsoup4 geopy python-dotenv
+## Venv & Requirments
+```
+python -m venv /path/to/.venv
+/path/to/.venv/bin/pip install requests beautifulsoup4 geopy python-dotenv python-dateutil
+```
+Nastavit promenne v ```.env```
 
 ## How to execute
 ```% python soutez.py```  

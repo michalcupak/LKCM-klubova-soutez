@@ -49,8 +49,9 @@ VEKOVE_KATEGORIE = {
 }
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-output_path = os.path.join(BASE_DIR, 'soutez_vysledky.json')
-year_map_path = os.path.join(BASE_DIR, 'year_map.json')
+os.makedirs(os.path.join(BASE_DIR, 'soutez_vysledky'), exist_ok=True)
+output_path = os.path.join(BASE_DIR, 'soutez_vysledky', 'soutez_vysledky.json')
+year_map_path = os.path.join(BASE_DIR, 'soutez_vysledky', 'year_map.json')
 
 # global variables
 types_per_category = defaultdict(set)
@@ -454,7 +455,7 @@ def main():
 
     print()
 
-    ftp = ftp_upload.connect_to_ftp(os.getenv('FTP_SERVER'), os.getenv('FTP_USERNAME'), os.getenv('FTP_PASSWORD'))
+    ftp = ftp_upload.connect_to_ftps(os.getenv('FTP_SERVER'), os.getenv('FTP_USERNAME'), os.getenv('FTP_PASSWORD'))
     if ftp:
         ftp_upload.upload_file_to_ftp(ftp, output_path, os.path.join(os.getenv('FTP_DIRECTORY_PATH_SOUTEZ'), "soutez_vysledky/soutez_vysledky_" + cps_year + ".json"))
         year_map = ftp_upload.build_year_to_filename_map(ftp, os.path.join(os.getenv('FTP_DIRECTORY_PATH_SOUTEZ'), "soutez_vysledky/"))
