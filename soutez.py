@@ -1,7 +1,6 @@
 import json
 from collections import defaultdict
 import argparse
-
 import requests
 from bs4 import BeautifulSoup
 # import pandas as pd
@@ -13,6 +12,9 @@ from dotenv import load_dotenv
 import os
 from ftp_upload import ftp_upload
 from pathlib import Path
+import time
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 env_path = Path.home() / ".config" / "LKCM-klubova-soutez" / ".env"
 load_dotenv(env_path)
@@ -58,6 +60,63 @@ year_map_path = os.path.join(BASE_DIR, 'soutez_vysledky', 'year_map.json')
 # global variables
 types_per_category = defaultdict(set)
 
+
+# ---------------------------------------------------------------------------
+# HTTP client
+# ---------------------------------------------------------------------------
+
+REQUEST_DELAY_SECONDS = 1.0
+
+retry_strategy = Retry(
+    total=6,
+    connect=3,
+    read=3,
+    status=6,
+    backoff_factor=2,
+    status_forcelist=(429, 500, 502, 503, 504),
+    allowed_methods=frozenset(["GET"]),
+    respect_retry_after_header=True,
+)
+
+http_session = requests.Session()
+
+http_session.headers.update({
+    "User-Agent": "AK-Medlanky-klubova-soutez/1.0"
+})
+
+adapter = HTTPAdapter(max_retries=retry_strategy)
+
+http_session.mount("https://", adapter)
+http_session.mount("http://", adapter)
+
+
+_last_request_at = 0.0
+
+
+def http_get(url: str, timeout: int = 30) -> requests.Response:
+    """
+    Provede HTTP GET s minimální prodlevou mezi požadavky.
+
+    Retry pro 429 a dočasné serverové chyby řeší HTTPAdapter.
+    """
+    global _last_request_at
+
+    elapsed = time.monotonic() - _last_request_at
+    wait_seconds = REQUEST_DELAY_SECONDS - elapsed
+
+    if wait_seconds > 0:
+        time.sleep(wait_seconds)
+
+    try:
+        response = http_session.get(url, timeout=timeout)
+    finally:
+        _last_request_at = time.monotonic()
+
+    response.raise_for_status()
+
+    return response
+
+
 def is_within_distance(coord1, coord2):
     distance = geodesic(coord1, coord2).km
     return distance <= start_buffer_km
@@ -80,7 +139,7 @@ def find_flights_table(tables):
 
 
 def get_start_coordinates(url):
-    response = requests.get(url + "&rezim=varianty")
+    response = http_get(url + "&rezim=varianty")
     soup = BeautifulSoup(response.content, 'html.parser')
     tratbods = soup.find_all('div', class_='tratbod')
     if len(tratbods) > 0:
@@ -108,8 +167,7 @@ def get_start_coordinates(url):
 
 
 def get_more_flight_info(url):
-    response = requests.get(url, timeout=30)
-    response.raise_for_status()
+    response = http_get(url)
 
     soup = BeautifulSoup(response.content, "html.parser")
 
@@ -213,7 +271,7 @@ def get_category(glider_name: str) -> str:
 
 
 def get_pilot_flights(url):
-    response = requests.get(url)
+    response = http_get(url)
     soup = BeautifulSoup(response.content, 'html.parser')
 
     tables = soup.find_all('table', class_='list-tbl')
@@ -255,7 +313,7 @@ def get_pilot_flights(url):
 
 def get_pilots_info(url):
     pilots = []
-    response = requests.get(url)
+    response = http_get(url)
     soup = BeautifulSoup(response.content, 'html.parser')
 
     panels = soup.find_all('div', class_='panel_pilot')
