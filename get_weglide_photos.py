@@ -5,6 +5,7 @@ import os
 from datetime import datetime
 from ftp_upload import ftp_upload
 from pathlib import Path
+from urllib.parse import urlsplit, urlunsplit
 
 env_path = Path.home() / ".config" / "LKCM-klubova-soutez" / ".env"
 load_dotenv(env_path)
@@ -16,6 +17,27 @@ output_path = os.path.join(BASE_DIR, 'weglide_photos', 'image_urls.json')
 def convert_date(d):
     return datetime.strptime(d, "%Y-%m-%d").strftime("%d.%m.%Y")
 
+def get_story_url(flights_url, flight_id):
+    parts = urlsplit(flights_url)
+    return urlunsplit((parts.scheme, parts.netloc, f"/v1/story/{flight_id}", "", ""))
+
+def get_pilot(flight):
+    pilot = flight['user']['name']
+    if "co_user" in flight and flight['co_user']['name'] != pilot:
+        pilot += ' & ' + flight['co_user']['name']
+    return pilot
+
+def add_image(images, image_path, flight):
+    if not image_path.lower().endswith(('.jpg', '.png')):
+        return
+
+    large_image_path = image_path.replace('_small', '')
+    images.append({
+        "url": f'https://weglidefiles.b-cdn.net/{large_image_path}',
+        "pilot": get_pilot(flight),
+        "datum": convert_date(flight['scoring_date']),
+    })
+
 def scrape_images():
     try:
         url = os.getenv('WEGLIDE_FLIGHTS_URL')
@@ -24,23 +46,22 @@ def scrape_images():
             "Accept": "application/json",
         }
 
-        response = requests.get(url, headers=headers)
+        response = requests.get(url, headers=headers, timeout=30)
         response.raise_for_status()
         data = response.json()
         images = []
         for flight in data:
-            if 'story' in flight:
-                for image_url in flight['story']:
-                    if image_url.endswith(('.jpg', '.png')):
-                        large_image_url = image_url.replace('_small', '')
-                        pilot = flight['user']['name']
-                        if "co_user" in flight and flight['co_user']['name'] != pilot:
-                            pilot += ' & ' + flight['co_user']['name']
-                        images.append({
-                            "url": f'https://weglidefiles.b-cdn.net/{large_image_url}',
-                            "pilot": pilot,
-                            "datum": convert_date(flight['scoring_date']),
-                        })
+            if 'id' not in flight:
+                continue
+
+            story_response = requests.get(get_story_url(url, flight['id']), headers=headers, timeout=30)
+            story_response.raise_for_status()
+            story = story_response.json()
+
+            for item in story:
+                image_path = item.get('image')
+                if image_path:
+                    add_image(images, image_path, flight)
         return images
     except Exception as e:
         print(f"An error occurred: {e}")
@@ -64,4 +85,3 @@ if __name__ == '__main__':
     if ftp:
         ftp_upload.upload_file_to_ftp(ftp, output_path, os.path.join(os.getenv('FTP_DIRECTORY_PATH_WEGLIDE_SLIDESHOW'), "image_urls.json"))
         ftp.quit()
-
