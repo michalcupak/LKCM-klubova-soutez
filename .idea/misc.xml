@@ -3,4 +3,5 @@
   <component name="Black">
     <option name="sdkName" value="Python 3.9 (AK_Medlanky_soutez)" />
   </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="~/PycharmProjects/AK_Medlanky_soutez/.venv" project-jdk-type="Python SDK" />
 </project>

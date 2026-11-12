@@ -50,6 +50,7 @@ Kategorie kluzáků:
 
 WeGlide:
 - `WEGLIDE_FLIGHTS_URL` - URL endpointu WeGlide API pro výběr letů, ze kterých se načítají fotky.
+- `WEGLIDE_USER_AGENT` - volitelná vlastní HTTP hlavička `User-Agent`; jinak se použije výchozí hodnota ve skriptu.
 
 Hodnoty kategorií jsou JSON seznamy, např.:
 ```
@@ -80,6 +81,8 @@ Skript:
 - z příběhu letu vybere obrázky,
 - uloží seznam URL fotek do JSON,
 - nahraje JSON přes FTPS na server.
+
+Při chybě stahování skript skončí s návratovým kódem 1 a zachová dosavadní JSON i jeho kopii na FTP.
 
 ### `web_scaler/web_scaler.html`
 
@@ -219,7 +222,7 @@ Po aktualizaci na Raspberry je vhodné zkontrolovat:
 Časté problémy:
 - prázdné výsledky soutěže - zkontrolovat dostupnost CPS, zvolený rok a zda lety splňují podmínku startu do 20 km od LKCM,
 - chybějící typová kategorie - doplnit typ kluzáku do příslušné `CATEGORY_*` proměnné v `.env`,
-- chyba WeGlide fotek - zkontrolovat `WEGLIDE_FLIGHTS_URL` a dostupnost WeGlide API,
+- chyba WeGlide fotek - zkontrolovat `WEGLIDE_FLIGHTS_URL` a dostupnost WeGlide API; při HTTP 403, kdy stejná URL funguje v prohlížeči, zkusit nastavit `WEGLIDE_USER_AGENT` podle aktuálního prohlížeče,
 - chyba uploadu - zkontrolovat `FTP_SERVER`, přihlašovací údaje a cílové cesty,
 - chybějící `year_map.json` - ověřit, že na FTP existuje složka `soutez_vysledky` a že obsahuje soubory ve tvaru `soutez_vysledky_<rok>.json`,
 - cron nic negeneruje - zkontrolovat absolutní cesty v crontabu, existenci `.venv`, práva k `.env` a logy v `~/logs`.

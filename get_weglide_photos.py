@@ -39,10 +39,16 @@ def add_image(images, image_path, flight):
     })
 
 def scrape_images():
+    """Return the photos, or None if fetching them fails."""
     try:
         url = os.getenv('WEGLIDE_FLIGHTS_URL')
         headers = {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36",
+            "User-Agent": os.getenv(
+                'WEGLIDE_USER_AGENT',
+                'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) '
+                'AppleWebKit/537.36 (KHTML, like Gecko) '
+                'Chrome/142.0.0.0 Safari/537.36',
+            ),
             "Accept": "application/json",
         }
 
@@ -65,7 +71,7 @@ def scrape_images():
         return images
     except Exception as e:
         print(f"An error occurred: {e}")
-        return []
+        return None
 
 
 
@@ -75,6 +81,9 @@ if __name__ == '__main__':
     print("spuštěno: " + datetime.now().strftime('%d. %m. %Y %H:%M:%S') + "\n")
 
     image_urls = scrape_images()
+    if image_urls is None:
+        raise SystemExit(1)
+
     print(image_urls)
     print()
 
